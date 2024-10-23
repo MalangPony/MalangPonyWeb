@@ -76,15 +76,19 @@ a{
 	justify-content:space-evenly;
 	border-radius:8px;
 	background-color: #5f4385;
+	align-items:stretch;
+	height:48px;
 }
 .linkbar_btn{
+	height:100%;
 	cursor:pointer;
 	font-size:20px;
 	padding-left:10px;
 	padding-right:10px;
-	padding-top:4px;
-	padding-bottom:4px;
 	border-radius:8px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
 .linkbar > a:nth-child(3n+0) > div{
 	color:#ff91db;

@@ -19,9 +19,35 @@
 <div id="content">
 	<a href="/"><img src="MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" style="width:100%;"></a>
 	<div class="linkbar">
-		<a href="about.php"><div class="linkbar_btn <?php if ($pagename=='about') echo 'linkbar_selected'; ?>">소개</div></a>
-		<a onclick="alert('Link to Google Forms');"><div class="linkbar_btn linkbar_inactive">참가 신청</div></a>
-		<a onclick="alert('Link to Google Docs');"><div class="linkbar_btn linkbar_inactive">규칙</div></a>
-		<a onclick="alert('Link to Google Docs');"><div class=" linkbar_btn linkbar_inactive">시간표</div></a>
-		<a href="staff.php"><div class="linkbar_btn <?php if ($pagename=='staff') echo 'linkbar_selected'; ?>">운영진</div></a>
+		<a href="/">
+			<div class="linkbar_btn <?php if ($pagename=='index') echo 'linkbar_selected'; ?>">
+				<img src="home_32dp_FFFFFF_FILL1_wght400_GRAD0_opsz40.png" 
+					width="32px" height="32px" />
+			</div>
+		</a>
+		<a href="about.php">
+			<div class="linkbar_btn <?php if ($pagename=='about') echo 'linkbar_selected'; ?>">
+			소개
+			</div>
+		</a>
+		<a href="https://forms.gle/pdPSzYSH28r5SqBJ8">
+			<div class="linkbar_btn <?php if ($pagename=='register') echo 'linkbar_selected'; ?>">
+			참가 신청
+			</div>
+		</a>
+		<a href="rules.php">
+			<div class="linkbar_btn <?php if ($pagename=='rules') echo 'linkbar_selected'; ?>">
+			규칙
+			</div>
+		</a>
+		<a href="timetable.php">
+			<div class="linkbar_btn linkbar_inactive <?php if ($pagename=='timetable') echo 'linkbar_selected'; ?>">
+			시간표
+			</div>
+		</a>
+		<a href="staff.php">
+			<div class="linkbar_btn <?php if ($pagename=='staff') echo 'linkbar_selected'; ?>">
+			운영진
+			</div>
+		</a>
 	</div>
