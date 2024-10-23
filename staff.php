@@ -70,12 +70,15 @@
 		
 		<div class="staffprofile">
 			<div class="staffpic">
-				<img src=""/>
+				<img src="staffprofile/Profile512s.png"/>
 			</div>
 			<div class="staffdesc">
-				<div class="staffname">818</div>
+				<div class="staffname">EightonEight</div>
 				<div class="staffbio">서무</div>
 				<div class="staffsns">
+					<a href="https://blog.naver.com/fbud818">
+						<div class="snsbtn_smol naver">네이버 블로그</div>
+					</a>
 				</div>
 			</div>
 		</div>
