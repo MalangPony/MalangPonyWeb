@@ -29,6 +29,24 @@ a{
 .introtext{
 	font-size:20px;
 }
+.normaltext{
+	width:500px;
+	font-family:sans-serif;
+	font-size:16px;
+	text-align:left;
+}
+h2{
+	margin-top:16px;
+}
+h2:after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 60%;
+	margin-top: 3px;
+	background: linear-gradient( 90deg, rgba(0,0,0,1), rgba(0,0,0,0) );
+}
+
 .snsbar{
 	display:flex; 
 	flex-direction:row; 
@@ -191,7 +209,6 @@ a{
 
 .linkbar_btn{
 	flex-grow:1;
-	cursor:pointer;
 	font-size:20px;
 	padding-left:10px;
 	padding-right:10px;
@@ -219,19 +236,18 @@ a{
 	to { padding-bottom: 0; }
 }
 
-.linkbar > a:nth-child(3n+0) > div{
+.linkbar_red{
 	color:#ff91db;
 }
-.linkbar > a:nth-child(3n+1) > div{
+.linkbar_yellow{
 	color:#f2df8c;
 }
-.linkbar > a:nth-child(3n+2) > div{
+.linkbar_blue{
 	color:#70bcff;
 }
-/*
-.linkbar > a:nth-child(4n+3) > div{
+.linkbar_purple{
 	color:#c9aaf2;
-}*/
+}
 
 .linkbar_inactive{
 	color:#FFFFFF40 !important;

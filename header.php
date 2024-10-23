@@ -37,28 +37,30 @@ body{height:100%;}
 					width="48px" height="48px" class="unselected_icon" />
 			</div>
 		</a>
+		
 		<a href="about.php">
-			<div class="linkbar_btn <?php if ($pagename=='about') echo 'linkbar_selected'; ?>">
+			<div class="linkbar_btn linkbar_red <?php if ($pagename=='about') echo 'linkbar_selected'; ?>">
 			소개
 			</div>
 		</a>
+		
 		<a href="register.php">
-			<div class="linkbar_btn <?php if ($pagename=='register') echo 'linkbar_selected'; ?>">
+			<div class="linkbar_btn linkbar_yellow <?php if ($pagename=='register') echo 'linkbar_selected'; ?>">
 			참가 신청
 			</div>
 		</a>
 		<a href="rules.php">
-			<div class="linkbar_btn <?php if ($pagename=='rules') echo 'linkbar_selected'; ?>">
+			<div class="linkbar_btn linkbar_blue <?php if ($pagename=='rules') echo 'linkbar_selected'; ?>">
 			규칙
 			</div>
 		</a>
 		<a href="timetable.php">
-			<div class="linkbar_btn linkbar_inactive <?php if ($pagename=='timetable') echo 'linkbar_selected'; ?>">
+			<div class="linkbar_btn linkbar_inactive linkbar_red <?php if ($pagename=='timetable') echo 'linkbar_selected'; ?>">
 			시간표
 			</div>
 		</a>
 		<a href="staff.php">
-			<div class="linkbar_btn <?php if ($pagename=='staff') echo 'linkbar_selected'; ?>">
+			<div class="linkbar_btn linkbar_purple <?php if ($pagename=='staff') echo 'linkbar_selected'; ?>">
 			운영진
 			</div>
 		</a>
