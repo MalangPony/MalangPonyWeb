@@ -79,17 +79,22 @@ a{
 	align-items:stretch;
 	height:48px;
 }
+
+.linkbar > a {
+	display:flex;
+}
+
 .linkbar_btn{
-	height:100%;
+	flex-grow:1;
 	cursor:pointer;
 	font-size:20px;
 	padding-left:10px;
 	padding-right:10px;
-	border-radius:8px;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .linkbar > a:nth-child(3n+0) > div{
 	color:#ff91db;
 }
@@ -109,10 +114,24 @@ a{
 }
 
 .linkbar_selected{
-	box-shadow:#e3d8e9 0 0 20px;
-	background-color: #9872cb;
 	color:#F0F0F0 !important;
 	text-shadow:#FFFFFF 0 0 10px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+}
+
+.selected_icon{
+	display:none;
+}
+.unselected_icon{
+	display:block;
+}
+.linkbar_selected > .selected_icon{
+	display:block !important;
+}
+.linkbar_selected > .unselected_icon{
+	display:none !important;
 }
 
 .stafflist{

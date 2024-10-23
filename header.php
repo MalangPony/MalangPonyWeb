@@ -21,8 +21,10 @@
 	<div class="linkbar">
 		<a href="/">
 			<div class="linkbar_btn <?php if ($pagename=='index') echo 'linkbar_selected'; ?>">
-				<img src="home_32dp_FFFFFF_FILL1_wght400_GRAD0_opsz40.png" 
-					width="32px" height="32px" />
+				<img src="home_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24_EXPAND_GLOW++.png" 
+					width="48px" height="48px" class="selected_icon" />
+				<img src="home_24dp_A485CE_FILL1_wght400_GRAD0_opsz24_EXPANDED.png" 
+					width="48px" height="48px" class="unselected_icon" />
 			</div>
 		</a>
 		<a href="about.php">
