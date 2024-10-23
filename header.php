@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>
+말랑포니!<?php if ($pagename_kor!='') echo " - {$pagename_kor}"; ?>
+</title>
+<?php if ($pagename=="index"): ?>
+	<meta property="og:title" content="말랑포니!" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://malangpony.com" />
+	<meta property="og:image" content="http://malangpony.com/MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" />
+	<meta property="og:description" content="2025년 2월 15일 개최되는 한국의 마이리틀포니 행사입니다!" />
+<?php endif; ?>
+<meta name="viewport" content="width=700" />
+<link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+<div id="content">
+	<a href="/"><img src="MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" style="width:100%;"></a>
+	<div class="linkbar">
+		<a href="about.php"><div class="linkbar_btn <?php if ($pagename=='about') echo 'linkbar_selected'; ?>">소개</div></a>
+		<a onclick="alert('Link to Google Forms');"><div class="linkbar_btn linkbar_inactive">참가 신청</div></a>
+		<a onclick="alert('Link to Google Docs');"><div class="linkbar_btn linkbar_inactive">규칙</div></a>
+		<a onclick="alert('Link to Google Docs');"><div class=" linkbar_btn linkbar_inactive">시간표</div></a>
+		<a href="staff.php"><div class="linkbar_btn <?php if ($pagename=='staff') echo 'linkbar_selected'; ?>">운영진</div></a>
+	</div>

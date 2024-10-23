@@ -1,22 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>말랑포니! - 운영진</title>
-<meta name="viewport" content="width=700" />
-<link href="styles.css" rel="stylesheet" />
-</head>
-<body>
-<div id="content">
-	<a href="index.html"><img src="MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" style="width:100%;"></a>
-	<div class="linkbar">
-		<a href="about.html"><div class="linkbar_btn">소개</div></a>
-		<a onclick="alert('Link to Google Forms');"><div class="linkbar_btn linkbar_inactive">참가 신청</div></a>
-		<a onclick="alert('Link to Google Docs');"><div class="linkbar_btn linkbar_inactive">규칙</div></a>
-		<a onclick="alert('Link to Google Docs');"><div class=" linkbar_btn linkbar_inactive">시간표</div></a>
-		<a href="staff.html"><div class="linkbar_btn linkbar_selected">운영진</div></a>
-	</div>
-	<!--PY/REPL/BEGIN-->
+<?php
+	$pagename_kor="운영진";
+	$pagename="staff";
+?>
+<?php include 'header.php'; ?>
+
 	<div class="stafflist">
 		<div class="staffprofile">
 			<div class="staffpic">
@@ -108,7 +95,5 @@
 			</div>
 		</div>
 	</div>
-	<!--PY/REPL/END-->
-</div>
-</body>
-</html>
+	
+<?php include 'footer.php'; ?>
