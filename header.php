@@ -32,7 +32,7 @@
 			소개
 			</div>
 		</a>
-		<a href="https://forms.gle/pdPSzYSH28r5SqBJ8">
+		<a href="register.php">
 			<div class="linkbar_btn <?php if ($pagename=='register') echo 'linkbar_selected'; ?>">
 			참가 신청
 			</div>

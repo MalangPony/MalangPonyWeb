@@ -13,4 +13,10 @@
 	<a><div class="snsbtn bluesky" style="opacity:0.2;">공식 블루스카이</div></a>
 	</div>
 	
+	<!--
+	<a href="Poster_Extension_rev6_NoQR-Crop.png">
+		<img src="Poster_Extension_rev6_NoQR-Crop_ResizeW1000px-JPG85.jpg" style="max-width:100%;"/>
+	</a>
+	-->
+	
 <?php include 'footer.php'; ?>
