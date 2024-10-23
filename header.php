@@ -14,10 +14,20 @@
 <?php endif; ?>
 <meta name="viewport" content="width=700" />
 <link href="styles.css" rel="stylesheet" />
+<?php if ($vertical_fit): ?>
+<style>
+html{height:100%;}
+body{height:100%;}
+#content{height:100%;}
+</style>
+<?php endif; ?>
 </head>
 <body>
 <div id="content">
+	<div style="height:10px;"></div>
+	<?php if (!($skip_header===true)): ?>
 	<a href="/"><img src="MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" style="width:100%;"></a>
+	<?php endif; ?>
 	<div class="linkbar">
 		<a href="/">
 			<div class="linkbar_btn <?php if ($pagename=='index') echo 'linkbar_selected'; ?>">
