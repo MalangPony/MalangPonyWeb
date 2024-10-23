@@ -14,7 +14,9 @@
 				<div class="staffbio">주최</div>
 				<div class="staffsns">
 					<a href="https://x.com/PaperSurgery">
-						<div class="snsbtn_smol twitter">트위터(X)</div>
+						<div class="snsbtn_smol twitter">
+							<img src="favicon_x.png"/>트위터(X)
+						</div>
 					</a>
 				</div>
 			</div>
@@ -29,10 +31,14 @@
 				<div class="staffbio">웹디자인,패널 진행</div>
 				<div class="staffsns">
 					<a href="https://x.com/SheepPony">
-						<div class="snsbtn_smol twitter">트위터(X)</div>
+						<div class="snsbtn_smol twitter">
+							<img src="favicon_x.png"/>트위터(X)
+						</div>
 					</a>
 					<a href="https://bsky.app/profile/sheeppony.bsky.social">
-						<div class="snsbtn_smol bluesky">블루스카이</div>
+						<div class="snsbtn_smol bluesky">
+							<img src="favicon_bsky_white.png"/>블루스카이
+						</div>
 					</a>
 				</div>
 			</div>
@@ -47,7 +53,9 @@
 				<div class="staffbio">현장 관리</div>
 				<div class="staffsns">
 					<a href="https://x.com/ShortcakeSweetz">
-						<div class="snsbtn_smol twitter">트위터(X)</div>
+						<div class="snsbtn_smol twitter">
+							<img src="favicon_x.png"/>트위터(X)
+						</div>
 					</a>
 				</div>
 			</div>
@@ -62,7 +70,9 @@
 				<div class="staffbio">디자인 및 홍보</div>
 				<div class="staffsns">
 					<a href="https://bsky.app/profile/ninethedivine.bsky.social">
-						<div class="snsbtn_smol bluesky">블루스카이</div>
+						<div class="snsbtn_smol bluesky">
+							<img src="favicon_bsky_white.png"/>블루스카이
+						</div>
 					</a>
 				</div>
 			</div>
@@ -77,7 +87,9 @@
 				<div class="staffbio">서무</div>
 				<div class="staffsns">
 					<a href="https://blog.naver.com/fbud818">
-						<div class="snsbtn_smol naver">네이버 블로그</div>
+						<div class="snsbtn_smol naver">
+							<img src="favicon_naver.png"/>네이버 블로그
+						</div>
 					</a>
 				</div>
 			</div>
@@ -92,7 +104,9 @@
 				<div class="staffbio">현장 관리</div>
 				<div class="staffsns">
 					<a href="https://x.com/megatarot">
-						<div class="snsbtn_smol twitter">트위터(X)</div>
+						<div class="snsbtn_smol twitter">
+							<img src="favicon_x.png"/>트위터(X)
+						</div>
 					</a>
 				</div>
 			</div>
