@@ -1,0 +1,162 @@
+
+@font-face {font-family: 'UhBeeSe_hyun';src: url('UhBeeSe_hyun.woff') format('woff');}
+
+body{
+	background-color: #E3D8E9;
+}
+*{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:UhBeeSe_hyun;
+	font-weight:bold;
+	color: #5f4385;
+	font-size:16px;
+}
+a{
+	text-decoration: none;
+}
+#content{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:640px;
+	margin-top: 30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#content > *{
+	margin-top: 20px;
+	margin-bottom:0px;
+}
+.introtext{
+	font-size:20px;
+}
+.snsbar{
+	display:flex; 
+	flex-direction:row; 
+	justify-content:space-evenly; 
+	gap:16px;
+}
+.snsbtn{
+	padding-left:12px;
+	padding-right:12px;
+	padding-top:4px;
+	padding-bottom:4px;
+	font-size:16pt;
+	font-weight:bold;
+	border-radius:8px;
+}
+.snsbtn_smol{
+	padding-left:8px;
+	padding-right:8px;
+	padding-top:4px;
+	padding-bottom:4px;
+	font-size:12pt;
+	font-weight:bold;
+	border-radius:8px;
+	text-align:center;
+}
+.twitter{
+	background-color: #000000;
+	color:#F0F0F0;
+}
+.bluesky{
+	background-color: #43a8ff;
+	color:#F0F0F0;
+}
+.linkbar{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	border-radius:8px;
+	background-color: #5f4385;
+}
+.linkbar_btn{
+	cursor:pointer;
+	font-size:20px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:4px;
+	padding-bottom:4px;
+	border-radius:8px;
+}
+.linkbar > a:nth-child(3n+0) > div{
+	color:#ff91db;
+}
+.linkbar > a:nth-child(3n+1) > div{
+	color:#f2df8c;
+}
+.linkbar > a:nth-child(3n+2) > div{
+	color:#70bcff;
+}
+/*
+.linkbar > a:nth-child(4n+3) > div{
+	color:#c9aaf2;
+}*/
+
+.linkbar_inactive{
+	opacity:0.3;
+}
+
+.linkbar_selected{
+	box-shadow:#e3d8e9 0 0 20px;
+	background-color: #9872cb;
+	color:#F0F0F0 !important;
+	text-shadow:#FFFFFF 0 0 10px;
+}
+
+.stafflist{
+	display:flex;
+	flex-direction:column;
+	width:500px;
+	gap:8px;
+}
+.staffprofile{
+	display:flex;
+	flex-direction:row;
+	border-width:2px;
+	border-style:solid;
+	border-color:#202020;
+	padding:8px;
+	border-radius:16px;
+}
+.staffpic{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	margin-right:16px;
+	margin-left:8px;
+}
+.staffpic > img{
+	object-fit: cover;
+	border-radius: 50%;
+	width:100px;
+	height:100px;
+}
+.staffdesc{
+	display:flex;
+	flex-direction:column;
+	gap:4px;
+}
+.staffdesc{
+	flex-grow:1;
+}
+.staffdesc > div {
+	text-align:left;
+}
+.staffname{
+	font-size:24px;
+}
+.staffbio{
+	margin-left:8px;
+	font-size:16px;
+}
+.staffsns{
+	margin-top:8px;
+	display:flex; 
+	flex-direction:row; 
+	justify-content:start; 
+	gap:8px;
+}
