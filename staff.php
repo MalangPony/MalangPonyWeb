@@ -15,7 +15,7 @@
 				<div class="staffsns">
 					<a href="https://x.com/PaperSurgery">
 						<div class="snsbtn_smol twitter">
-							<img src="favicon_x.png"/>트위터(X)
+							<img src="siteicons/favicon_x.png"/>트위터(X)
 						</div>
 					</a>
 				</div>
@@ -32,12 +32,12 @@
 				<div class="staffsns">
 					<a href="https://x.com/SheepPony">
 						<div class="snsbtn_smol twitter">
-							<img src="favicon_x.png"/>트위터(X)
+							<img src="siteicons/favicon_x.png"/>트위터(X)
 						</div>
 					</a>
 					<a href="https://bsky.app/profile/sheeppony.bsky.social">
 						<div class="snsbtn_smol bluesky">
-							<img src="favicon_bsky_white.png"/>블루스카이
+							<img src="siteicons/favicon_bsky_white.png"/>블루스카이
 						</div>
 					</a>
 				</div>
@@ -54,7 +54,7 @@
 				<div class="staffsns">
 					<a href="https://x.com/ShortcakeSweetz">
 						<div class="snsbtn_smol twitter">
-							<img src="favicon_x.png"/>트위터(X)
+							<img src="siteicons/favicon_x.png"/>트위터(X)
 						</div>
 					</a>
 				</div>
@@ -71,7 +71,7 @@
 				<div class="staffsns">
 					<a href="https://bsky.app/profile/ninethedivine.bsky.social">
 						<div class="snsbtn_smol bluesky">
-							<img src="favicon_bsky_white.png"/>블루스카이
+							<img src="siteicons/favicon_bsky_white.png"/>블루스카이
 						</div>
 					</a>
 				</div>
@@ -88,7 +88,7 @@
 				<div class="staffsns">
 					<a href="https://blog.naver.com/fbud818">
 						<div class="snsbtn_smol naver">
-							<img src="favicon_naver.png"/>네이버 블로그
+							<img src="siteicons/favicon_nblog.png"/>네이버 블로그
 						</div>
 					</a>
 				</div>
@@ -105,7 +105,7 @@
 				<div class="staffsns">
 					<a href="https://x.com/megatarot">
 						<div class="snsbtn_smol twitter">
-							<img src="favicon_x.png"/>트위터(X)
+							<img src="siteicons/favicon_x.png"/>트위터(X)
 						</div>
 					</a>
 				</div>

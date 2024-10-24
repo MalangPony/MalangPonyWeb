@@ -30,14 +30,14 @@ body{height:100%;}
 <div id="content">
 	<div style="height:10px;"></div>
 	<?php if (!($skip_header===true)): ?>
-	<a href="/"><img src="MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" style="width:100%;"></a>
+	<a href="/"><img src="images/MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" style="width:100%;"></a>
 	<?php endif; ?>
 	<div class="linkbar">
 		<a href="/">
 			<div class="linkbar_btn <?php if ($pagename=='index') echo 'linkbar_selected'; ?>">
-				<img src="home_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24_EXPAND_GLOW++.png" 
+				<img src="sprites/home_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24_EXPAND_GLOW++.png" 
 					width="48px" height="48px" class="selected_icon" />
-				<img src="home_24dp_A485CE_FILL1_wght400_GRAD0_opsz24_EXPANDED.png" 
+				<img src="sprites/home_24dp_A485CE_FILL1_wght400_GRAD0_opsz24_EXPANDED.png" 
 					width="48px" height="48px" class="unselected_icon" />
 			</div>
 		</a>

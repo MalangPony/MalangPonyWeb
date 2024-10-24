@@ -10,10 +10,10 @@
 	</p>
 	<div class="snsbar">
 		<a href="https://x.com/MalangPony"><div class="snsbtn twitter">
-			<img src="favicon_x.png"/>공식 트위터(X)
+			<img src="siteicons/favicon_x.png"/>공식 트위터(X)
 		</div></a>
 		<a><div class="snsbtn bluesky" style="opacity:0.2;">
-			<img src="favicon_bsky_white.png"/>공식 블루스카이
+			<img src="siteicons/favicon_bsky_white.png"/>공식 블루스카이
 		</div></a>
 	</div>
 	

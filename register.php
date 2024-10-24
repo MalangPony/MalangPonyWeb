@@ -9,7 +9,7 @@
 	</p>
 
 	<a href="https://forms.gle/pdPSzYSH28r5SqBJ8">
-		<div class="snsbtn google"><img src="favicon_ggl.png"/>참가 신청 구글 폼</div>
+		<div class="snsbtn google"><img src="siteicons/favicon_ggl.png"/>참가 신청 구글 폼</div>
 	</a>
 	
 <?php include 'footer.php'; ?>
