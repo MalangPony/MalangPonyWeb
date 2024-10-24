@@ -281,11 +281,11 @@ h2:after {
 .tt_row{
 }
 .tt_block{
-	
 	border-radius:4px;
 	padding: 4px 16px;
 }
 .tt_time{
+	height:2.0lh;
 	vertical-align: bottom;
 	border-bottom:1px solid black;
 }
