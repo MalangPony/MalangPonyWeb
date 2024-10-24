@@ -55,7 +55,7 @@ body{height:100%;}
 			</div>
 		</a>
 		<a href="timetable.php">
-			<div class="linkbar_btn linkbar_inactive linkbar_red <?php if ($pagename=='timetable') echo 'linkbar_selected'; ?>">
+			<div class="linkbar_btn linkbar_red <?php if ($pagename=='timetable') echo 'linkbar_selected'; ?>">
 			시간표
 			</div>
 		</a>
