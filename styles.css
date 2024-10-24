@@ -54,51 +54,7 @@ h2:after {
 	justify-content:space-evenly; 
 	gap:16px;
 }
-/*
-.snsbtn{
-	padding-left:12px;
-	padding-right:12px;
-	padding-top:4px;
-	padding-bottom:4px;
-	font-size:16pt;
-	font-weight:bold;
-	border-radius:8px;
-	text-align:center;
-	display:flex;
-	flex-direction:row;
-	align-items:center;
-	gap:8px;
-}
-.snsbtn_smol{
-	padding-left:8px;
-	padding-right:8px;
-	padding-top:4px;
-	padding-bottom:4px;
-	font-size:12pt;
-	font-weight:bold;
-	border-radius:8px;
-	text-align:center;
-	display:flex;
-	flex-direction:row;
-	align-items:center;
-	gap:4px;
-}
-.twitter{
-	background-color: #000000;
-	color:#F0F0F0;
-}
-.bluesky{
-	background-color: #43a8ff;
-	color:#F0F0F0;
-}
-.naver{
-	background-color: #05d686;
-	color:#F0F0F0;
-}
-.google{
-	background-color: #4285f4;
-	color:#F0F0F0;
-}*/
+
 .snsbtn{
 	padding-left:12px;
 	padding-right:12px;
@@ -151,16 +107,7 @@ h2:after {
 	background-color: #FFF;
 	color:#000000;
 }
-/*
-.twitter{
-	border-color: #000000;
-	background-color: #00000000;
-	color:#000000;
-}
-.twitter:hover{
-	background-color: #000000FF;
-	color:#FFF;
-}*/
+
 .bluesky{
 	border-color: #1185fe;
 	background-color: #1185fe;
@@ -222,11 +169,7 @@ h2:after {
 	transition:border-color 0.5s;
 	
 }
-/*
-.linkbar_btn:hover{
-		background-color:#5f4385;
-	background-color:#8d67bf;
-}*/
+
 .linkbar_btn:hover{
 	border-bottom-color:#FFFFFFFF;
 	animation:btn_hover_anim 1s infinite;
@@ -290,26 +233,7 @@ h2:after {
 	padding:8px;
 	border-radius:16px;
 }
-/*
-.stafflist{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	width:100%;
-	gap:8px;
-	justify-content:center;
-}
-.staffprofile{
-	width:280px;
-	display:flex;
-	flex-direction:row;
-	border-width:2px;
-	border-style:solid;
-	border-color:#202020;
-	padding:8px;
-	border-radius:16px;
-}
-*/
+
 .staffpic{
 	display:flex;
 	flex-direction:column;
@@ -349,28 +273,6 @@ h2:after {
 	gap:8px;
 }
 
-
-
-/*
-.schedule{
-	display:flex;
-	flex-direction:column;
-}
-.sched_row{
-	padding-top:4px;
-	padding-bottom:4px;
-	display:flex;
-	flex-direction:row;
-	align-items:flex-end;
-	border-bottom:1px solid black
-}
-.sched_timedisp{
-	
-}
-.sched_block{
-	border: 2px solid black;
-}
-*/
 .timetable{
 	font-family:sans-serif;
 	font-weight: normal;

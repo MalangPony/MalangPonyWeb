@@ -78,29 +78,5 @@
 		</tr>
 	</table>
 	
-	<!--
-	<div class="schedule">
-		<div class="sched_row">
-			<div class="sched_timedisp">10:00</div>
-			<div class="sched_block">
-			</div>
-		</div>
-		<div class="sched_row">
-			<div class="sched_timedisp">11:00</div>
-			<div class="sched_block">
-				<div class="sched_timerange">10:00 -</div>
-				<div class="sched_actname">참가자 입장 시작</div>
-			</div>
-		</div>
-		<div class="sched_row">
-			<div class="sched_timedisp">11:30</div>
-			<div class="sched_block">
-				<div class="sched_timerange">11:00 - 11:30</div>
-				<div class="sched_actname">개회식</div>
-			</div>
-		</div>
-	</div>
-	-->
-	
 	
 <?php include 'footer.php'; ?>
