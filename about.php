@@ -3,10 +3,10 @@
 	$pagename="about";
 ?>
 <?php include 'header.php'; ?>
-	<div class="normaltext">
-	<p>
+	<p class="introtext">
 		<strong>말랑포니는 20~30명 규모의 포니 패널로 진행되는 마이리틀포니 팬 이벤트입니다.</strong>
 	</p>
+	<div class="normaltext">
 	
 	<h2>이벤트 일정 및 장소</h2>
 	<p>

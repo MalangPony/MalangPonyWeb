@@ -276,6 +276,7 @@ h2:after {
 .timetable{
 	font-family:sans-serif;
 	font-weight: normal;
+	font-size:18px;
 }
 .tt_row{
 }
@@ -290,6 +291,7 @@ h2:after {
 }
 .tt_trange{
 	font-style: italic;
+	font-size:0.8em;
 }
 .tt_actname{
 	font-weight: bold;
@@ -308,7 +310,7 @@ h2:after {
 }
 .tt_expl{
 	font-size:0.8em;
-	width:240px;
+	width:280px;
 	opacity:0.8;
 	text-align:left;
 	padding-left:4px;

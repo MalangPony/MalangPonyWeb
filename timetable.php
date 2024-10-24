@@ -5,7 +5,7 @@
 <?php include 'header.php'; ?>
 
 	<p class="introtext">
-		아직 확정된 시간표는 아닙니다.
+		아래 시간표는 상황에 따라 변경될 수 있습니다.
 	</p>
 	
 	
