@@ -30,7 +30,7 @@ body{height:100%;}
 <div id="content">
 	<div style="height:10px;"></div>
 	<?php if (!($skip_header===true)): ?>
-	<a href="/"><img src="images/MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" style="width:100%;"></a>
+	<a href="/"><img src="images/MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" width="600px" height="212px"></a>
 	<?php endif; ?>
 	<div class="linkbar">
 		<a href="/">
