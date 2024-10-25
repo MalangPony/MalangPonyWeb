@@ -17,92 +17,114 @@
 			<th>설명</th>
 		</tr>
 		-->
-		<tr class="tt_row">
-			<td class="tt_time" style="height:0;">10:00</td>
+		<tr >
+			<td class="tt_time" rowspan="2" style="height:0;">10:00</td>
 			<td class=""></td>
 			<td class="tt_expl"></td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">10:30</td>
-			<td class="tt_block tt_block_red" rowspan="2">
+		<tr >
+			<td class="tt_block tt_block_red" rowspan="4">
 				<div class="tt_trange">10:00 - 11:00</div>
 				<div class="tt_actname">참가자 입장</div>
 			</td>
-			<td class="tt_expl" rowspan="2">10시~11시 아무때나 입장해 주시면 됩니다.</td>
+			<td class="tt_expl" rowspan="4">10시~11시 아무때나 입장해 주시면 됩니다.</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">11:00</td>
+		<tr >
+			<td class="tt_time" rowspan="2">10:30</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">11:30</td>
-			<td class="tt_block tt_block_yellow">
+		<tr ></tr>
+		<tr >
+			<td class="tt_time" rowspan="2">11:00</td>
+		</tr>
+		<tr >
+			<td class="tt_block tt_block_yellow" rowspan="2">
 				<div class="tt_trange">11:00 - 11:30</div>
 				<div class="tt_actname">개회식</div>
 			</td>
-			<td class="tt_expl"></td>
+			<td class="tt_expl" rowspan="2"></td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">12:00</td>
-			<td class="tt_block tt_block_blue" rowspan="3">
+		<tr >
+			<td class="tt_time" rowspan="2">11:30</td>
+		</tr>
+		<tr >
+			<td class="tt_block tt_block_blue" rowspan="6">
 				<div class="tt_trange">11:30 - 13:00</div>
 				<div class="tt_actname">우리말 겨루기</div>
 			</td>
-			<td class="tt_expl" rowspan="3">마이리틀포니 지식 퀴즈쇼!</td>
+			<td class="tt_expl" rowspan="6">마이리틀포니 지식 퀴즈쇼!</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">12:30</td>
+		<tr >
+			<td class="tt_time" rowspan="2">12:00</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">13:00</td>
+		<tr ></tr>
+		<tr >
+			<td class="tt_time" rowspan="2">12:30</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">13:30</td>
-			<td class="tt_block tt_block_purple" rowspan="3">
+		<tr></tr>
+		<tr >
+			<td class="tt_time" rowspan="2">13:00</td>
+		</tr>
+		<tr >
+			<td class="tt_block tt_block_purple" rowspan="6">
 				<div class="tt_trange">13:00 - 14:30</div>
 				<div class="tt_actname">드로잉 쇼 &amp; 다과회</div>
 			</td>
-			<td class="tt_expl" rowspan="3">아티스트들의 그림 실력을 구경하면서<br>맛있는 과자를 먹읍시다</td>
+			<td class="tt_expl" rowspan="6">아티스트들의 그림 실력을 구경하면서<br>맛있는 과자를 먹읍시다</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">14:00</td>
+		<tr >
+			<td class="tt_time" rowspan="2">13:30</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">14:30</td>
-			
+		<tr></tr>
+		<tr >
+			<td class="tt_time" rowspan="2">14:00</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">15:00</td>
-			<td class="tt_block tt_block_red">
-				<div class="tt_trange">14:30 - 15:00</div>
-				<div class="tt_actname">보드게임 설명회</div>
+		<tr></tr>
+		<tr >
+			<td class="tt_time" rowspan="2">14:30</td>
+		</tr>
+		<tr >
+			<td class="tt_block tt_block_red" rowspan="2">
+				<div class="tt_trange" rowspan="2">14:30 - 15:00</div>
+				<div class="tt_actname" rowspan="2">보드게임 설명회</div>
 			</td>
-			<td class="tt_expl">막장 포니 커플링 보드게임, TSSSF의<br>플레이 방법을 설명해 드립니다!</td>
+			<td class="tt_expl" rowspan="2">막장 포니 커플링 보드게임, TSSSF의<br>플레이 방법을 설명해 드립니다!</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">15:30</td>
-			<td class="tt_block tt_block_yellow" rowspan="4">
+		<tr >
+			<td class="tt_time" rowspan="2">15:00</td>
+		</tr>
+		<tr >
+			<td class="tt_block tt_block_yellow" rowspan="8">
 				<div class="tt_trange">15:00 - 17:00</div>
 				<div class="tt_actname">게임 및 자유시간</div>
 			</td>
-			<td class="tt_expl" rowspan="4"></td>
+			<td class="tt_expl" rowspan="8"></td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">16:00</td>
+		<tr >
+			<td class="tt_time" rowspan="2">15:30</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">16:30</td>
+		<tr></tr>
+		<tr >
+			<td class="tt_time" rowspan="2">16:00</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">17:00</td>
+		<tr></tr>
+		<tr >
+			<td class="tt_time" rowspan="2">16:30</td>
 		</tr>
-		<tr class="tt_row">
-			<td class="tt_time">17:30</td>
-			<td class="tt_block tt_block_blue">
+		<tr></tr>
+		<tr >
+			<td class="tt_time" rowspan="2">17:00</td>
+		</tr>
+		<tr >
+			<td class="tt_block tt_block_blue" rowspan="2">
 				<div class="tt_trange">17:00 - 17:30</div>
 				<div class="tt_actname">래플 추첨 및 폐회식</div>
 			</td>
-			<td class="tt_expl">아쉬운 폐회식...<br>그리고 두근두근 래플 추첨!</td>
+			<td class="tt_expl" rowspan="2">아쉬운 폐회식...<br>그리고 두근두근 래플 추첨!</td>
 		</tr>
+		<tr >
+			<td class="tt_time" rowspan="2">17:30</td>
+		</tr>
+		<tr></tr>
 	</table>
 	
 	

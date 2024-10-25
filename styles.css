@@ -277,17 +277,17 @@ h2:after {
 	font-family:sans-serif;
 	font-weight: normal;
 	font-size:20px;
+	border-collapse: separate;
+	border-spacing:5px;
 }
-.tt_row{
+.timetable tr{
+	height:30px;
 }
 .tt_block{
 	border-radius:4px;
 	padding: 4px 16px;
 }
 .tt_time{
-	height:50px;
-	vertical-align: bottom;
-	border-bottom:1px solid black;
 	font-size:0.7em;
 }
 .tt_trange{
