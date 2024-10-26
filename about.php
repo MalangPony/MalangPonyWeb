@@ -4,9 +4,8 @@
 ?>
 <?php include 'header.php'; ?>
 	<p class="introtext">
-		말랑포니는 20~30명 규모의,<br>
-		패널 프로그램 위주로 진행되는<br>
-		마이리틀포니 팬 이벤트입니다.
+		말랑포니는 포니 테마 프로그램으로 진행되는<br>
+		30명 규모의 마이리틀포니 팬 이벤트입니다.
 	</p>
 	<div class="normaltext">
 	
