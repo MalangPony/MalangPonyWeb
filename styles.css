@@ -393,3 +393,16 @@ a.link_with_icon{
 	flex-direction:row;
 	align-items:center;
 }
+
+.hanmari{
+	font-size:1.5em;
+	color:#ffffff;
+	text-shadow: #00000080 0 0 5px;
+	font-weight:bold;
+}
+.kimmari{
+	font-size:1.5em;
+	color:#404040;
+	text-shadow:#FFFFFFD0 0 0 5px;
+	font-weight:bold;
+}

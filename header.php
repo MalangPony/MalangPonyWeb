@@ -37,7 +37,7 @@ body{height:100%;}
 	<?php endif; ?>
 	<div class="linkbar">
 		<a href="/">
-			<div class="linkbar_btn <?php if ($pagename=='index') echo 'linkbar_selected'; ?>">
+			<div class="linkbar_btn <?php if ($pagename=='index') echo 'linkbar_selected'; ?>" style="padding-left:2px;padding-right:2px;">
 				<img src="sprites/home_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24_EXPAND_GLOW++.png" 
 					width="48px" height="48px" class="selected_icon" />
 				<img src="sprites/home_24dp_A485CE_FILL1_wght400_GRAD0_opsz24_EXPANDED.png" 
@@ -69,6 +69,14 @@ body{height:100%;}
 		<a href="staff.php">
 			<div class="linkbar_btn linkbar_purple <?php if ($pagename=='staff') echo 'linkbar_selected'; ?>">
 			문의
+			</div>
+		</a>
+		<a href="oc.php">
+			<div class="linkbar_btn <?php if ($pagename=='oc') echo 'linkbar_selected'; ?>" style="padding-left:2px;padding-right:2px;">
+				<img src="sprites/Hanmari_CM_rev1_80px_Expand128px_HalfWhiteGlow.png" 
+					width="48px" height="48px" class="selected_icon" />
+				<img src="sprites/Hanmari_CM_rev1_80px_Expand128px.png" 
+					width="48px" height="48px" class="unselected_icon" />
 			</div>
 		</a>
 	</div>
