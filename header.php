@@ -48,9 +48,9 @@ body{height:100%;}
 			</div>
 		</a>
 		
-		<a href="https://forms.gle/pdPSzYSH28r5SqBJ8">
+		<a href="register.php">
 			<div class="linkbar_btn linkbar_yellow <?php if ($pagename=='register') echo 'linkbar_selected'; ?>">
-			참가 신청<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLY.png" width="24px" height="24px" style="margin-left:4px;"/>
+			참가 신청
 			</div>
 		</a>
 		<a href="rules.php">
