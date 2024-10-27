@@ -2,6 +2,18 @@
 <div style="height:100px;"></div> <!-- Bottom padding -->
 <?php endif; ?>
 </div> <!-- End of Content -->
+
+<?php if ($display_sns_float===true): ?>
+<div class="bottom_floater">
+	<a href="https://x.com/MalangPony" class="snsbtn twitter">
+		<img src="siteicons/favicon_x.png"/>공식 트위터(X)
+	</a>
+	<a class="snsbtn bluesky" style="opacity:0.2;">
+		<img src="siteicons/favicon_bsky_white.png"/>공식 블루스카이
+	</a>
+</div>
+<?php endif; ?>
+
 <div class="bgdisp">
 	<?php $roll=rand()%3; ?>
 	<?php if ($roll==0): ?>

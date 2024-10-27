@@ -61,6 +61,7 @@ h2:after {
 }
 
 .snsbtn{
+	display:block;
 	padding-left:12px;
 	padding-right:12px;
 	padding-top:4px;
@@ -352,4 +353,22 @@ h2:after {
 	min-width:100px;
 	flex-shrink:1;
 	flex-grow:0;
+}
+
+.bottom_floater{
+	position:fixed;
+	right:0;
+	bottom:0;
+	left:0;
+	display:flex;
+	flex-direction:row;
+	align-items:flex-end;
+	justify-content:center;
+	gap:16px;
+	z-index:+10;
+}
+
+.bottom_floater > a{
+	margin:10px;
+	box-shadow: 0 0 5px #000000FF;
 }

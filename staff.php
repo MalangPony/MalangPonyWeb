@@ -4,23 +4,27 @@
 ?>
 <?php include 'header.php'; ?>
 	
-	<!--
+	
 	<div class="introtext">
-		아래 방법으로 말랑포니 운영진에게 연락을 주실 수 있습니다.
-	</div>-->
+		공식 SNS 계정, 또는 아래 이메일로 연락을 주실 수 있습니다.
+	</div>
 	
 	<div class="snsbar">
-		<a href="https://x.com/MalangPony"><div class="snsbtn twitter">
+		<a href="https://x.com/MalangPony" class="snsbtn twitter">
 			<img src="siteicons/favicon_x.png"/>공식 트위터(X)
-		</div></a>
-		<a><div class="snsbtn bluesky" style="opacity:0.2;">
+		</a>
+		<a class="snsbtn bluesky" style="opacity:0.2;">
 			<img src="siteicons/favicon_bsky_white.png"/>공식 블루스카이
-		</div></a>
+		</a>
 	</div>
 	
 	<img src="images/email_addr.png" style="max-width:360px;"/>
 	
 	<div class="divider" style="height:3px;"></div>
+	
+	<div class="introtext">
+		운영진
+	</div>
 	
 	<div class="stafflist">
 		<div class="staffprofile">
@@ -31,10 +35,8 @@
 				<div class="staffname">종이수술</div>
 				<div class="staffbio">주최</div>
 				<div class="staffsns">
-					<a href="https://x.com/PaperSurgery">
-						<div class="snsbtn_smol twitter">
-							<img src="siteicons/favicon_x.png"/>트위터(X)
-						</div>
+					<a href="https://x.com/PaperSurgery" class="snsbtn_smol twitter">
+						<img src="siteicons/favicon_x.png"/>트위터(X)
 					</a>
 				</div>
 			</div>
@@ -48,15 +50,11 @@
 				<div class="staffname">양말</div>
 				<div class="staffbio">웹디자인,패널 진행</div>
 				<div class="staffsns">
-					<a href="https://x.com/SheepPony">
-						<div class="snsbtn_smol twitter">
-							<img src="siteicons/favicon_x.png"/>트위터(X)
-						</div>
+					<a href="https://x.com/SheepPony" class="snsbtn_smol twitter">
+						<img src="siteicons/favicon_x.png"/>트위터(X)
 					</a>
-					<a href="https://bsky.app/profile/sheeppony.bsky.social">
-						<div class="snsbtn_smol bluesky">
-							<img src="siteicons/favicon_bsky_white.png"/>블루스카이
-						</div>
+					<a href="https://bsky.app/profile/sheeppony.bsky.social" class="snsbtn_smol bluesky">
+						<img src="siteicons/favicon_bsky_white.png"/>블루스카이
 					</a>
 				</div>
 			</div>
@@ -70,10 +68,8 @@
 				<div class="staffname">쇼트케이크</div>
 				<div class="staffbio">현장 관리</div>
 				<div class="staffsns">
-					<a href="https://x.com/ShortcakeSweetz">
-						<div class="snsbtn_smol twitter">
-							<img src="siteicons/favicon_x.png"/>트위터(X)
-						</div>
+					<a href="https://x.com/ShortcakeSweetz" class="snsbtn_smol twitter">
+						<img src="siteicons/favicon_x.png"/>트위터(X)
 					</a>
 				</div>
 			</div>
@@ -87,10 +83,8 @@
 				<div class="staffname">Nine the Divine</div>
 				<div class="staffbio">디자인 및 홍보</div>
 				<div class="staffsns">
-					<a href="https://bsky.app/profile/ninethedivine.bsky.social">
-						<div class="snsbtn_smol bluesky">
-							<img src="siteicons/favicon_bsky_white.png"/>블루스카이
-						</div>
+					<a href="https://bsky.app/profile/ninethedivine.bsky.social"  class="snsbtn_smol bluesky">
+						<img src="siteicons/favicon_bsky_white.png"/>블루스카이
 					</a>
 				</div>
 			</div>
@@ -104,10 +98,8 @@
 				<div class="staffname">EightonEight</div>
 				<div class="staffbio">서무</div>
 				<div class="staffsns">
-					<a href="https://blog.naver.com/fbud818">
-						<div class="snsbtn_smol naver">
-							<img src="siteicons/favicon_nblog.png"/>네이버 블로그
-						</div>
+					<a href="https://blog.naver.com/fbud818" class="snsbtn_smol naver">
+						<img src="siteicons/favicon_nblog.png"/>네이버 블로그
 					</a>
 				</div>
 			</div>
@@ -121,10 +113,8 @@
 				<div class="staffname">메가타로</div>
 				<div class="staffbio">현장 관리</div>
 				<div class="staffsns">
-					<a href="https://x.com/megatarot">
-						<div class="snsbtn_smol twitter">
-							<img src="siteicons/favicon_x.png"/>트위터(X)
-						</div>
+					<a href="https://x.com/megatarot" class="snsbtn_smol twitter">
+						<img src="siteicons/favicon_x.png"/>트위터(X)
 					</a>
 				</div>
 			</div>
