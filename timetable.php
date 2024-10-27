@@ -23,7 +23,7 @@
 			<td class="tt_expl"></td>
 		</tr>
 		<tr >
-			<td class="tt_block tt_block_red" rowspan="4">
+			<td class="tt_block tt_block_aj" rowspan="4">
 				<div class="tt_trange">10:00 - 11:00</div>
 				<div class="tt_actname">참가자 입장</div>
 			</td>
@@ -37,7 +37,7 @@
 			<td class="tt_time" rowspan="2">11:00</td>
 		</tr>
 		<tr >
-			<td class="tt_block tt_block_yellow" rowspan="2">
+			<td class="tt_block tt_block_pp" rowspan="2">
 				<div class="tt_trange">11:00 - 11:30</div>
 				<div class="tt_actname">개회식</div>
 			</td>
@@ -47,7 +47,7 @@
 			<td class="tt_time" rowspan="2">11:30</td>
 		</tr>
 		<tr >
-			<td class="tt_block tt_block_blue" rowspan="6">
+			<td class="tt_block tt_block_fs" rowspan="6">
 				<div class="tt_trange">11:30 - 13:00</div>
 				<div class="tt_actname">우리말 겨루기</div>
 			</td>
@@ -65,11 +65,11 @@
 			<td class="tt_time" rowspan="2">13:00</td>
 		</tr>
 		<tr >
-			<td class="tt_block tt_block_purple" rowspan="6">
+			<td class="tt_block tt_block_rd" rowspan="6">
 				<div class="tt_trange">13:00 - 14:30</div>
 				<div class="tt_actname">드로잉 쇼 &amp; 다과회</div>
 			</td>
-			<td class="tt_expl" rowspan="6">아티스트들의 그림 실력을 구경하면서<br>맛있는 과자를 먹읍시다</td>
+			<td class="tt_expl" rowspan="6">아티스트들의 그림 실력을 구경하면서<br>맛있는 과자를 나눠먹어요!</td>
 		</tr>
 		<tr >
 			<td class="tt_time" rowspan="2">13:30</td>
@@ -83,7 +83,7 @@
 			<td class="tt_time" rowspan="2">14:30</td>
 		</tr>
 		<tr >
-			<td class="tt_block tt_block_red" rowspan="2">
+			<td class="tt_block tt_block_ry" rowspan="2">
 				<div class="tt_trange" rowspan="2">14:30 - 15:00</div>
 				<div class="tt_actname" rowspan="2">보드게임 설명회</div>
 			</td>
@@ -93,7 +93,7 @@
 			<td class="tt_time" rowspan="2">15:00</td>
 		</tr>
 		<tr >
-			<td class="tt_block tt_block_yellow" rowspan="8">
+			<td class="tt_block tt_block_ts" rowspan="8">
 				<div class="tt_trange">15:00 - 17:00</div>
 				<div class="tt_actname">게임 및 자유시간</div>
 			</td>
@@ -115,7 +115,7 @@
 			<td class="tt_time" rowspan="2">17:00</td>
 		</tr>
 		<tr >
-			<td class="tt_block tt_block_blue" rowspan="2">
+			<td class="tt_block tt_block_sp" rowspan="2">
 				<div class="tt_trange">17:00 - 17:30</div>
 				<div class="tt_actname">래플 추첨 및 폐회식</div>
 			</td>

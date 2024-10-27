@@ -327,6 +327,15 @@ a.snsbtn{
 .tt_block_purple{
 	background-color:#c9aaf2;
 }
+.tt_block_aj{ background-color:#FABA62; }
+.tt_block_pp{ background-color:#F5B7D0; }
+.tt_block_fs{ background-color:#FAF5AB; }
+.tt_block_rd{ background-color:#9BDBF5; }
+.tt_block_ry{ background-color:#EAEEF0; }
+.tt_block_ts{ background-color:#CC9CDF; }
+.tt_block_sp{ background-color:#96CE7D; }
+.tt_block_ss{ background-color:#FFCA54; }
+.tt_block_sg{ background-color:#F2C7F8; }
 .tt_expl{
 	font-size:16px;
 	width:320px;
