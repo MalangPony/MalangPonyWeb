@@ -351,14 +351,15 @@ a.snsbtn{
 	flex-direction:row;
 	align-items:flex-end;
 	z-index:-100;
-	opacity:0.2;
 }
 .bgdisp > div{
+	opacity:0.4;
 	flex-grow:1;
 	width:500px;
 	flex-shrink:0;
 }
 .bgdisp img{
+	opacity:0.2;
 	max-height:800px;
 	min-width:100px;
 	flex-shrink:1;

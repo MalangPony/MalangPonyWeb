@@ -66,7 +66,7 @@
 			</div>
 			<div class="staffdesc">
 				<div class="staffname">쇼트케이크</div>
-				<div class="staffbio">현장 관리</div>
+				<div class="staffbio">패널 진행</div>
 				<div class="staffsns">
 					<a href="https://x.com/ShortcakeSweetz" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)

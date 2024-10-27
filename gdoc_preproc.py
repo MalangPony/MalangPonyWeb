@@ -16,8 +16,8 @@ while True:
 s=s[:start_idx]+s[end_idx+1:]
 '''
 s=s.replace(
-	"{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}",
-	"{background-color:#ffffff;padding:12pt;}")
+	"max-width:468pt;padding:72pt 72pt 72pt 72pt",
+	"padding:12pt")
 
 with open("ruledoc_edit.html","w",encoding="utf-8") as f:
 	f.write(s)
