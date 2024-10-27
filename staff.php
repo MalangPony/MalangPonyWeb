@@ -5,9 +5,7 @@
 <?php include 'header.php'; ?>
 	
 	
-	<div class="introtext">
-		공식 SNS 계정, 또는 아래 이메일로 연락을 주실 수 있습니다.
-	</div>
+	
 	
 	<div class="snsbar">
 		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_larg twitter">
@@ -18,7 +16,10 @@
 		</a>
 	</div>
 	
-	<img src="images/email_addr.png" style="max-width:360px;"/>
+	<div class="introtext" style="margin-bottom:-16px;">
+		<span style="font-size:0.8em;">공식 이메일</span>
+	</div>
+	<img src="images/email_addr_nocaption.png" style="max-width:360px;"/>
 	
 	<div class="divider" style="height:3px;"></div>
 	
