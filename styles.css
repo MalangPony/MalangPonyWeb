@@ -48,6 +48,11 @@ h2:after {
 	background: linear-gradient( 90deg, rgba(0,0,0,1), rgba(0,0,0,0) );
 }
 
+.divider{
+	background-color:#5f4385;
+	width:100%;
+}
+
 .snsbar{
 	display:flex; 
 	flex-direction:row; 
@@ -230,7 +235,7 @@ h2:after {
 	flex-direction:row;
 	border-width:2px;
 	border-style:solid;
-	border-color:#202020;
+	border-color:#5f4385;
 	padding:8px;
 	border-radius:16px;
 }

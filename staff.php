@@ -1,9 +1,27 @@
 <?php
-	$pagename_kor="운영진";
+	$pagename_kor="문의";
 	$pagename="staff";
 ?>
 <?php include 'header.php'; ?>
-
+	
+	<!--
+	<div class="introtext">
+		아래 방법으로 말랑포니 운영진에게 연락을 주실 수 있습니다.
+	</div>-->
+	
+	<div class="snsbar">
+		<a href="https://x.com/MalangPony"><div class="snsbtn twitter">
+			<img src="siteicons/favicon_x.png"/>공식 트위터(X)
+		</div></a>
+		<a><div class="snsbtn bluesky" style="opacity:0.2;">
+			<img src="siteicons/favicon_bsky_white.png"/>공식 블루스카이
+		</div></a>
+	</div>
+	
+	<img src="images/email_addr.png" style="max-width:360px;"/>
+	
+	<div class="divider" style="height:3px;"></div>
+	
 	<div class="stafflist">
 		<div class="staffprofile">
 			<div class="staffpic">
@@ -112,5 +130,6 @@
 			</div>
 		</div>
 	</div>
+	
 	
 <?php include 'footer.php'; ?>

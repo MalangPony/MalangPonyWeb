@@ -13,20 +13,8 @@
 	</p>
 	
 	<a href="images/Poster_Extension_rev6_NoQR-Crop.png">
-		<img src="images/Poster_Extension_rev6_NoQR-Crop_ResizeW1000px-JPG85.jpg" style="max-width:80%;filter:drop-shadow(3px 3px 3px #00000080);"/>
+		<img src="images/Poster_Extension_rev6_NoQR-Crop_ResizeW1000px-JPG85.jpg" style="max-width:80%;filter:drop-shadow(3px 3px 5px #00000080);"/>
 	</a>
-	
-	<div class="snsbar">
-		<a href="https://x.com/MalangPony"><div class="snsbtn twitter">
-			<img src="siteicons/favicon_x.png"/>공식 트위터(X)
-		</div></a>
-		<a><div class="snsbtn bluesky" style="opacity:0.2;">
-			<img src="siteicons/favicon_bsky_white.png"/>공식 블루스카이
-		</div></a>
-	</div>
-	
-	
-	
 
 	
 <?php include 'footer.php'; ?>

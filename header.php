@@ -65,7 +65,7 @@ body{height:100%;}
 		</a>
 		<a href="staff.php">
 			<div class="linkbar_btn linkbar_purple <?php if ($pagename=='staff') echo 'linkbar_selected'; ?>">
-			운영진
+			문의
 			</div>
 		</a>
 	</div>
