@@ -12,7 +12,7 @@
 	<h2>이벤트 일정 및 장소</h2>
 	<p>
 		• 일정 : 2025년 2월 15일 10:00 ~ 17:30<br>
-		• 장소 : 서울 광진구 용마산로3길 98 B1층, 그린라운지
+		• 장소 : <a class="actual_link link_with_icon" href="https://naver.me/xRPvYMNz"><span>서울 광진구 용마산로3길 98 B1층, 그린라운지</span><img src="siteicons/favicon_nmap.png" width="24px" height="24px"></a>
 	</p>
 
 	<h2>등록마감 및 참가비</h2>

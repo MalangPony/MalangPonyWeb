@@ -25,10 +25,10 @@
 	</p>
 	<!--
 	<div class="snsbar">
-		<a href="https://x.com/MalangPony" class="snsbtn twitter">
+		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_larg twitter">
 			<img src="siteicons/favicon_x.png"/>공식 트위터(X)
 		</a>
-		<a class="snsbtn bluesky" style="opacity:0.2;">
+		<a class="snsbtn snsbtn_larg bluesky" style="opacity:0.2;">
 			<img src="siteicons/favicon_bsky_white.png"/>공식 블루스카이
 		</a>
 	</div>-->

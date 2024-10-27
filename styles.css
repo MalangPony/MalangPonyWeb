@@ -14,9 +14,7 @@ body{
 	margin:0;
 	padding:0;
 }
-a{
-	text-decoration: none;
-}
+
 #content{
 	display:flex;
 	flex-direction:column;
@@ -60,25 +58,31 @@ h2:after {
 	gap:16px;
 }
 
+a.snsbtn{
+	text-decoration: none;
+}
 .snsbtn{
 	display:block;
+	font-weight:bold;
+	text-align:center;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	transition-property: background-color, color;
+	transition-duration: 0.5s;
+}
+
+.snsbtn_larg {
 	padding-left:12px;
 	padding-right:12px;
 	padding-top:4px;
 	padding-bottom:4px;
 	font-size:16pt;
-	font-weight:bold;
 	border-radius:8px;
-	text-align:center;
-	display:flex;
-	flex-direction:row;
-	align-items:center;
 	gap:8px;
 	border: 4px solid;
-	transition-property: background-color, color;
-	transition-duration: 0.5s;
 }
-.snsbtn > img {
+.snsbtn_larg > img {
 	width:32px;
 	height:32px;
 }
@@ -88,16 +92,9 @@ h2:after {
 	padding-top:2px;
 	padding-bottom:2px;
 	font-size:10pt;
-	font-weight:bold;
 	border-radius:6px;
-	text-align:center;
-	display:flex;
-	flex-direction:row;
-	align-items:center;
 	gap:4px;
 	border: 2px solid;
-	transition-property: background-color, color;
-	transition-duration: 0.5s;
 }
 .snsbtn_smol > img {
 	width:24px;
@@ -157,8 +154,9 @@ h2:after {
 	height:48px;
 }
 
-.linkbar > a {
+.linkbar a {
 	display:flex;
+	text-decoration: none;
 }
 
 .linkbar_btn{
@@ -371,4 +369,15 @@ h2:after {
 .bottom_floater > a{
 	margin:10px;
 	box-shadow: 0 0 5px #000000FF;
+}
+
+a.actual_link{
+	color:#5f4385;
+	font-weight:bold;
+}
+
+a.link_with_icon{
+	display:inline-flex;
+	flex-direction:row;
+	align-items:center;
 }
