@@ -43,7 +43,7 @@ h2:after {
 	height: 2px;
 	width: 60%;
 	margin-top: 3px;
-	background: linear-gradient( 90deg, rgba(0,0,0,1), rgba(0,0,0,0) );
+	background: linear-gradient( 90deg, #5f4385FF,#5f438500 );
 }
 
 .divider{

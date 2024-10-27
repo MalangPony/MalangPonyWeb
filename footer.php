@@ -15,7 +15,7 @@
 <?php endif; ?>
 
 <div class="bgdisp">
-	<?php $roll=rand()%3; ?>
+	<?php $roll=rand()%4; ?>
 	<?php if ($roll==0): ?>
 		<img src="images/KMR_CloseCrop-SizEq_1000px.png" />
 		<div></div>
@@ -24,6 +24,10 @@
 		<img src="images/CM_CropA_L_1000px.png" style="align-self:flex-start;"/>
 		<div></div>
 		<img src="images/CM_CropA_R_1000px.png" style="align-self:flex-end;"/>
+	<?php elseif ($roll==2): ?>
+		<img src="images/CESS_OpenMeet_20240906_EDIT_ISOLATED-Harder.png"/>
+		<div></div>
+		<img src="images/Cute_Mare_Enjoyers_6_EDIT.png"/>
 	<?php else: ?>
 		<img src="images/detail_hanmari_rot180.png" style="align-self:flex-start;"/>
 		<div></div>
