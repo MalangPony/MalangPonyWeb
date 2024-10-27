@@ -35,7 +35,7 @@
 				<div class="staffname">종이수술</div>
 				<div class="staffbio">주최</div>
 				<div class="staffsns">
-					<a href="https://x.com/PaperSurgery" class="snsbtn_smol twitter">
+					<a href="https://x.com/PaperSurgery" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
 					</a>
 				</div>
@@ -50,10 +50,10 @@
 				<div class="staffname">양말</div>
 				<div class="staffbio">웹디자인,패널 진행</div>
 				<div class="staffsns">
-					<a href="https://x.com/SheepPony" class="snsbtn_smol twitter">
+					<a href="https://x.com/SheepPony" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
 					</a>
-					<a href="https://bsky.app/profile/sheeppony.bsky.social" class="snsbtn_smol bluesky">
+					<a href="https://bsky.app/profile/sheeppony.bsky.social" class="snsbtn snsbtn_smol bluesky">
 						<img src="siteicons/favicon_bsky_white.png"/>블루스카이
 					</a>
 				</div>
@@ -68,7 +68,7 @@
 				<div class="staffname">쇼트케이크</div>
 				<div class="staffbio">현장 관리</div>
 				<div class="staffsns">
-					<a href="https://x.com/ShortcakeSweetz" class="snsbtn_smol twitter">
+					<a href="https://x.com/ShortcakeSweetz" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
 					</a>
 				</div>
@@ -83,7 +83,7 @@
 				<div class="staffname">Nine the Divine</div>
 				<div class="staffbio">디자인 및 홍보</div>
 				<div class="staffsns">
-					<a href="https://bsky.app/profile/ninethedivine.bsky.social"  class="snsbtn_smol bluesky">
+					<a href="https://bsky.app/profile/ninethedivine.bsky.social"  class="snsbtn snsbtn_smol bluesky">
 						<img src="siteicons/favicon_bsky_white.png"/>블루스카이
 					</a>
 				</div>
@@ -98,7 +98,7 @@
 				<div class="staffname">EightonEight</div>
 				<div class="staffbio">서무</div>
 				<div class="staffsns">
-					<a href="https://blog.naver.com/fbud818" class="snsbtn_smol naver">
+					<a href="https://blog.naver.com/fbud818" class="snsbtn snsbtn_smol naver">
 						<img src="siteicons/favicon_nblog.png"/>네이버 블로그
 					</a>
 				</div>
@@ -113,7 +113,7 @@
 				<div class="staffname">메가타로</div>
 				<div class="staffbio">현장 관리</div>
 				<div class="staffsns">
-					<a href="https://x.com/megatarot" class="snsbtn_smol twitter">
+					<a href="https://x.com/megatarot" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
 					</a>
 				</div>
