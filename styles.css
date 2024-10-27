@@ -13,6 +13,9 @@ body{
 *{
 	margin:0;
 	padding:0;
+	
+	/* I hate chrome*/
+	text-size-adjust: none;
 }
 
 #content{
@@ -379,7 +382,6 @@ a.snsbtn{
 	margin:10px;
 	box-shadow: 0 0 5px #000000FF;
 }
-
 a.actual_link{
 	color:#5f4385;
 	font-weight:bold;
