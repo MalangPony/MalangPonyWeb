@@ -17,6 +17,9 @@ Sorry for the spaghetti.
 	<meta property="og:description" content="2025년 2월 15일 개최되는 한국의 마이리틀포니 행사입니다!" />
 <?php endif; ?>
 <meta name="viewport" content="width=700" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
 <link href="styles.css" rel="stylesheet" />
 <?php if ($vertical_fit): ?>
 <style>

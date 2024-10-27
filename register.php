@@ -13,7 +13,7 @@
 	</a>
 	
 	<p class="introtext">
-		등록 마감까지 <span id="countdown" style="font-family:monospace;font-weight:bold;">??</span>일 남았습니다.<br>
+		등록 마감까지 <span id="countdown" class="monotext-bold">??</span>일 남았습니다.<br>
 		<span style="font-size:0.8em;">조기에 마감될 수 있으니 빠른 신청 부탁드립니다!</span></p>
 	<script>
 		let eventTime=new Date("2025-01-18T00:00:00+09:00");

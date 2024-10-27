@@ -27,7 +27,7 @@
 		<img src="images/Poster_Extension_rev6_NoQR-Crop_ResizeW1000px-JPG85.jpg" style="max-width:80%;filter:drop-shadow(3px 3px 5px #00000080);"/>
 	</a>
 	
-	<p style="font-size:24px;">행사까지... <span id="countdown" style="font-family:monospace;font-weight:bold;">???</span></p>
+	<p style="font-size:24px;">행사까지... <span id="countdown" class="monotext-bold">???</span></p>
 	<script>
 		function update(){
 			//let eventTime=new Date("2025-02-15T00:00:00+09:00");
