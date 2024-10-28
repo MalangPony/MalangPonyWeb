@@ -73,7 +73,7 @@ body{height:100%;}
 		</a>
 		<a href="oc.php">
 			<div class="linkbar_btn <?php if ($pagename=='oc') echo 'linkbar_selected'; ?>" style="padding-left:2px;padding-right:2px;">
-				<img src="sprites/Hanmari_CM_rev1_80px_Expand128px_WhiteGlow.png" 
+				<img src="sprites/Hanmari_CM_rev1_80px_Expand128px_Glow++.png" 
 					width="48px" height="48px" class="selected_icon" />
 				<img src="sprites/Hanmari_CM_rev1_80px_Expand128px.png" 
 					width="48px" height="48px" class="unselected_icon" />
