@@ -403,15 +403,29 @@ a.link_with_icon{
 	align-items:center;
 }
 
+
 .hanmari{
-	font-size:1.5em;
 	color:#ffffff;
-	text-shadow: #00000080 0 0 5px;
 	font-weight:bold;
+	text-shadow: #000000FF 0 0 4px;
 }
 .kimmari{
-	font-size:1.5em;
 	color:#404040;
-	text-shadow:#FFFFFFD0 0 0 5px;
+	font-weight:bold;
+	text-shadow:#FFFFFFFF 0 0 4px;
+}
+
+.mari_big{
+	font-size:1.5em;
+}
+.hanmari.mari_big{
+	text-shadow: #00000080 0 0 6px;
+}
+.kimmari.mari_big{
+	text-shadow:#FFFFFFD0 0 0 6px;
+}
+
+.placeholder{
+	color:#FF0000;
 	font-weight:bold;
 }
