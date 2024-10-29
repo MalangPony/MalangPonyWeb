@@ -28,12 +28,13 @@
 		</a>
 	</div>
 	
-	<p class="normaltext">
-		<span class="placeholder">TODO: 여기 한마리 소개 텍스트 좀 자연스럽게</span><br>
-		<span class="hanmari mari_big">한마리</span>는 아이돌로 활동중인 발랄 명량 여자아이입니다.<br>
-		<span class="kimmari mari_big">김마리</span>는 <span class="hanmari">한마리</span>의 본명으로, 아이돌 활동중이 아닐 때의 평범한 고등학생의 모습입니다.<br>
-		<em>둘은 같은 인물입니다!</em>
-	</p>
+	<div class="normaltext">
+		<p><span class="hanmari mari_big">한마리</span>는 아이돌로 활동중인 발랄 명량 여자아이입니다.<br>
+			단청색의 갈기가 특징입니다.</p>
+		<p><span class="kimmari mari_big">김마리</span>는 <span class="hanmari">한마리</span>의 본명으로,<br>
+			아이돌 활동중이 아닐 때의 평범한 고등학생의 모습입니다.</p>
+		<p style="margin-top:8px;"><em>주의:둘은 같은 인물입니다!</em></p>
+	</div>
 	
 	<p class="normaltext">
 		<span class="hanmari">한마리</span> 또는 <span class="kimmari">김마리</span> 팬아트는 언제든 환영입니다!<br>
@@ -42,11 +43,54 @@
 		이 사이트 배경에 추가 될 수도...?
 	</p>
 	
-	<div class="normaltext">
+	<?php if(0): ?>
+	<div class="normaltext" style="width:100%;">
 		<h2>팬아트 갤러리</h2>
 		
-		<div class="introtext">coming soon...</div>
+		<div class="fanart_gallery">
+			<div class="fanart_container">
+				<a href="https://x.com/SheepPony">
+					<img class="fanart_thumb" src="fanarts_thumb/MLPp114_rev24_FANCY_THUMB.jpg"/>
+				</a>
+				<a class="actual_link link_with_icon" href="https://x.com/SheepPony">
+					By SheepPony
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+						width="20px" height="20px">
+				</a>
+			</div>
+			<div class="fanart_container">
+				<a href="https://x.com/0interrupter0">
+					<img class="fanart_thumb" src="fanarts_thumb/kimaribunnty123_THUMB.jpg"/>
+				</a>
+				<a class="actual_link link_with_icon" href="https://x.com/0interrupter0">
+					By Interrupter
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+						width="20px" height="20px">
+				</a>
+			</div>
+			<div class="fanart_container">
+				<a href="https://x.com/0interrupter0">
+					<img class="fanart_thumb" src="fanarts_thumb/MARIHAN_THUMB.jpg"/>
+				</a>
+				<a class="actual_link link_with_icon" href="https://x.com/0interrupter0">
+					By Interrupter
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+						width="20px" height="20px">
+				</a>
+			</div>
+			<div class="fanart_container">
+				<a href="https://ponerpics.org/profiles/TruthOrMare">
+					<img class="fanart_thumb" src="fanarts_thumb/Cute_Mare_Enjoyers_6_THUMB.jpg"/>
+				</a>
+				<a class="actual_link link_with_icon" href="https://ponerpics.org/profiles/TruthOrMare">
+					By TruthOrMare
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+						width="20px" height="20px">
+				</a>
+			</div>
+		</div>
 	</div>
+	<?php endif; ?>
 
 	
 <?php include 'footer.php'; ?>
