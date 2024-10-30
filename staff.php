@@ -30,7 +30,7 @@
 	<div class="stafflist">
 		<div class="staffprofile">
 			<div class="staffpic">
-				<img src="staffprofile/GhbywjnH_400x400.jpg"/>
+				<img src="staffprofile/t43rZGOF_400x400.jpg"/>
 			</div>
 			<div class="staffdesc">
 				<div class="staffname">종이수술</div>
