@@ -18,7 +18,7 @@
 		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_larg twitter">
 			<img src="siteicons/favicon_x.png"/>공식 트위터(X)
 		</a>
-		<a class="snsbtn snsbtn_larg bluesky" style="opacity:0.2;">
+		<a href="https://bsky.app/profile/malangpony.bsky.social" class="snsbtn snsbtn_larg bluesky">
 			<img src="siteicons/favicon_bsky_white.png"/>공식 블루스카이
 		</a>
 	</div>
@@ -55,11 +55,7 @@
 			
 			let s="D-"+days+", "+hours+":"+minutes+":"+seconds;
 			document.getElementById("countdown").innerHTML = s;
-			
-			/*
-			let days_whole = Math.ceil(timeDelta/1000/60/60/24);
-			document.getElementById("countdown").innerHTML = "D-"+days_whole;
-			*/
+
 		}
 		update();
 		setInterval(update,1000);

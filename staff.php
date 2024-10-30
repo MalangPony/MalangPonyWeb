@@ -11,7 +11,7 @@
 		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_larg twitter">
 			<img src="siteicons/favicon_x.png"/>공식 트위터(X)
 		</a>
-		<a class="snsbtn snsbtn_larg bluesky" style="opacity:0.2;">
+		<a href="https://bsky.app/profile/malangpony.bsky.social" class="snsbtn snsbtn_larg bluesky">
 			<img src="siteicons/favicon_bsky_white.png"/>공식 블루스카이
 		</a>
 	</div>
@@ -49,7 +49,7 @@
 			</div>
 			<div class="staffdesc">
 				<div class="staffname">양말</div>
-				<div class="staffbio">웹디자인,패널 진행</div>
+				<div class="staffbio">웹디자인, 패널 진행</div>
 				<div class="staffsns">
 					<a href="https://x.com/SheepPony" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
@@ -67,7 +67,7 @@
 			</div>
 			<div class="staffdesc">
 				<div class="staffname">쇼트케이크</div>
-				<div class="staffbio">패널 진행</div>
+				<div class="staffbio">패널 진행, 현장 관리</div>
 				<div class="staffsns">
 					<a href="https://x.com/ShortcakeSweetz" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
