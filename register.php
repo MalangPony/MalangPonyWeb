@@ -5,11 +5,11 @@
 <?php include 'header.php'; ?>
 	
 	<p class="introtext">
-		아래 버튼을 클릭하여 참가 신청을 하실 수 있습니다.
+		아래 버튼을 클릭하여 사전등록 신청을 하실 수 있습니다.
 	</p>
 
 	<a href="https://forms.gle/pdPSzYSH28r5SqBJ8" class="snsbtn snsbtn_larg google">
-		<img src="siteicons/favicon_ggl.png"/>참가 신청 구글 폼
+		<img src="siteicons/favicon_ggl.png"/>사전등록 (구글 폼)
 	</a>
 	
 	<p class="introtext">

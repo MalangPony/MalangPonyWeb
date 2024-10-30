@@ -97,7 +97,7 @@
 				<div class="tt_trange">15:00 - 17:00</div>
 				<div class="tt_actname">보드게임 &amp; 자유시간</div>
 			</td>
-			<td class="tt_expl" rowspan="8">포니 보드게임을 하며 친목을 다져보세요!</td>
+			<td class="tt_expl" rowspan="8">TSSSF, Prance, Stardust, PUNO 등 <br>여러 포니 보드게임을 하며 친목을 다져보세요!</td>
 		</tr>
 		<tr >
 			<td class="tt_time" rowspan="2">15:30</td>

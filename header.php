@@ -53,7 +53,7 @@ body{height:100%;}
 		
 		<a href="register.php">
 			<div class="linkbar_btn linkbar_yellow <?php if ($pagename=='register') echo 'linkbar_selected'; ?>">
-			참가 신청
+			사전등록
 			</div>
 		</a>
 		<a href="rules.php">
