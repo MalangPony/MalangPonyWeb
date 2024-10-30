@@ -8,13 +8,20 @@
 	
 	
 	
-	
+	<style>
+	/* sorry */
+	@media (width<330px) {#hack_nl{display:inline;}}
+	@media (width>=330px) {#hack_nl{display:none;}}
+	</style>
 	<p class="introtext">
-		한국의 마이리틀포니 팬 교류회, 2025년 2월 15일 서울에서 만나요!<br>
-		포니를 사랑하는 모든 분들을 환영합니다!
+		<span class="nobreak">한국의 마이리틀포니 팬 교류회, </span>
+		<span class="nobreak">2025년 2월 15일 <br id="hack_nl">
+		서울에서 만나요!</span><br>
+		<span class="nobreak">포니를 사랑하는 </span>
+		<span class="nobreak">모든 분들을 환영합니다!</span>
 	</p>
 	
-	<div class="snsbar">
+	<div class="flexrow mobile-pivot-late">
 		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_larg twitter">
 			<img src="siteicons/favicon_x.png"/>공식 트위터(X)
 		</a>
@@ -24,10 +31,12 @@
 	</div>
 	
 	<a href="images/Poster_Extension_rev6_NoQR-Crop.png">
-		<img src="images/Poster_Extension_rev6_NoQR-Crop_ResizeW1000px-JPG85.jpg" style="max-width:80%;filter:drop-shadow(3px 3px 5px #00000080);"/>
+		<img src="images/Poster_Extension_rev6_NoQR-Crop_ResizeW1000px-JPG85.jpg" style="width:100%; max-width:540px;filter:drop-shadow(3px 3px 5px #00000080);"/>
 	</a>
 	
-	<p style="font-size:24px;">행사까지... <span id="countdown" class="monotext-bold">???</span></p>
+	<p class="introtext">
+	<span class="nobreak">행사까지... </span>
+	<span class="nobreak"><span id="countdown" class="monotext-bold">???</span></span></p>
 	<script>
 		function update(){
 			//let eventTime=new Date("2025-02-15T00:00:00+09:00");

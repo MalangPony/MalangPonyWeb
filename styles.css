@@ -15,28 +15,61 @@ body{
 	padding:0;
 	
 	/* I hate chrome*/
+	/* nvm I hate every single browser there is */
+	/*
 	text-size-adjust: none;
+	-webkit-text-size-adjust:none;*/
+}
+img{
+	display:block;
 }
 
 #content{
+	box-sizing: border-box;
+	width:100%;
+	padding-left:10px;
+	padding-right:10px;
+	max-width:720px;
+	margin-left:auto;
+	margin-right:auto;
+	
 	display:flex;
 	flex-direction:column;
 	align-items:center;
-	width:640px;
-	margin-left:auto;
-	margin-right:auto;
 	gap:20px;
 }
-.introtext{
+#headerimage{
+	box-sizing: border-box;
 	width:100%;
-	font-size:20px;
+	max-width:600px;
+	height:unset;
+	
+	padding-left:20px;
+	padding-right:20px;
+	margin-bottom: -10px;
+}
+.introtext{
+	box-sizing: border-box;
+	width:100%;
+	padding-left:0;
+	padding-right:0;
+	font-size:1.3em;
 }
 .normaltext{
-	width:500px;
+	box-sizing: border-box;
+	width:100%;
+	padding-left:60px;
+	padding-right:60px;
 	font-family:"Noto Sans KR";
-	font-size:16px;
 	font-weight: normal;
 	text-align:left;
+}
+.reverse-indent-2em{ 
+	margin-left: 2em; 
+	text-indent: -2em;
+}
+.reverse-indent-2em > *{ 
+	text-indent: 0;
 }
 .monotext-bold{
 	font-family:"Noto Sans Mono";
@@ -46,8 +79,11 @@ body{
 	font-family:"Noto Sans Mono";
 	font-weight: normal;
 }
+.nobreak{
+	white-space: nowrap;
+}
 h2{
-	margin-top:16px;
+	margin-top:1.0em;
 }
 h2:after {
 	content: "";
@@ -58,15 +94,23 @@ h2:after {
 	background: linear-gradient( 90deg, #5f4385FF,#5f438500 );
 }
 
+/*background-color:#5f4385; */
 .divider{
-	background-color:#5f4385;
+	background: linear-gradient( 
+		90deg, 
+		#5f438500 0%,
+		#5f4385FF 10%,
+		#5f4385FF 90%,
+		#5f438500 100% );
 	width:100%;
 }
 
-.snsbar{
+/* A nice row of items. */
+.flexrow{
 	display:flex; 
 	flex-direction:row; 
 	justify-content:space-evenly; 
+	align-items:center;
 	gap:16px;
 }
 
@@ -89,7 +133,7 @@ a.snsbtn{
 	padding-right:12px;
 	padding-top:4px;
 	padding-bottom:4px;
-	font-size:16pt;
+	font-size:1.2em;
 	border-radius:8px;
 	gap:8px;
 	border: 4px solid;
@@ -103,7 +147,7 @@ a.snsbtn{
 	padding-right:6px;
 	padding-top:2px;
 	padding-bottom:2px;
-	font-size:10pt;
+	font-size:0.8em;
 	border-radius:6px;
 	gap:4px;
 	border: 2px solid;
@@ -159,7 +203,7 @@ a.snsbtn{
 	width:100%;
 	display:flex;
 	flex-direction:row;
-	justify-content:space-evenly;
+	justify-content:space-around;
 	border-radius:8px;
 	background-color: #5f4385;
 	align-items:stretch;
@@ -173,7 +217,7 @@ a.snsbtn{
 
 .linkbar_btn{
 	flex-grow:1;
-	font-size:20px;
+	font-size:1.4em;
 	padding-left:10px;
 	padding-right:10px;
 	display:flex;
@@ -276,24 +320,24 @@ a.snsbtn{
 	text-align:left;
 }
 .staffname{
-	font-size:24px;
+	font-size:1.5em;
 }
 .staffbio{
 	margin-left:8px;
-	font-size:16px;
+	font-size:1.0em;
 }
 .staffsns{
-	margin-top:8px;
+	margin-top:0.5em;
 	display:flex; 
 	flex-direction:row; 
 	justify-content:start; 
+	align-items:flex-start;
 	gap:8px;
 }
 
 .timetable{
 	font-family:"Noto Sans KR";
 	font-weight: normal;
-	font-size:20px;
 	border-collapse: separate;
 	border-spacing:5px;
 }
@@ -309,10 +353,10 @@ a.snsbtn{
 }
 .tt_trange{
 	font-style: italic;
-	font-size:16px;
+	font-size:1.0em;
 }
 .tt_actname{
-	font-size:20px;
+	font-size:1.3em;
 	font-weight: bold;
 }
 .tt_block_red{
@@ -337,9 +381,9 @@ a.snsbtn{
 .tt_block_ss{ background-color:#FFCA54; }
 .tt_block_sg{ background-color:#F2C7F8; }
 .tt_expl{
-	font-size:16px;
+	font-size:1.0em;
 	width:320px;
-	opacity:0.8;
+	opacity:1.0;
 	text-align:left;
 	padding-left:4px;
 }
@@ -364,7 +408,7 @@ a.snsbtn{
 .bgdisp > div{
 	opacity:0.4;
 	flex-grow:1;
-	width:500px;
+	width:600px;
 	flex-shrink:0;
 }
 .bgdisp img{
@@ -402,6 +446,7 @@ a.link_with_icon{
 	display:inline-flex;
 	flex-direction:row;
 	align-items:center;
+	flex-wrap:wrap;
 }
 
 
@@ -452,4 +497,111 @@ a.link_with_icon{
 	max-height:200px;
 	object-fit: contain;
 	filter:drop-shadow(2px 2px 5px #00000080);
+}
+
+/* Responsive Section */
+/* Targeting down to 300px. */
+
+/* Mobile mode */
+@media (width<640px) {
+	.normaltext{
+		font-size:1.0em;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.linkbar_btn{
+		font-size:1.1em;
+	}
+	.tt_expl{
+		width:240px;
+	}
+	/* For use with .flexrow - pivots at 680px*/
+	.mobile-pivot-early{
+		flex-direction:column;
+	}
+	.linkbar a {
+		flex-grow:1;
+	}
+	.linkbar_btn{
+		padding-left:0;
+		padding-right:0;
+	}
+}
+
+/* Smaller Mobiles */
+@media (width<480px) {
+	/* For use with .flexrow - pivots at 500px*/
+	.mobile-pivot-late{
+		flex-direction:column;
+	}
+	.tt_block{
+		padding: 4px 4px;
+	}
+}
+
+/* Ridiculously Small Mobiles */
+@media (width<360px) {
+	.staffname{
+		font-size:1.3em;
+	}
+	.fanart_thumb{
+		max-width:85vw;
+	}
+}
+
+/* Mobile ladder */
+/* PC <-640-> Big Mobile <-480-> Small Mobile <-360-> Ridiculous <-300-> I give up */
+@media (width>=480px) and (width<640px) {
+	body{
+		font-size:18px;
+	}
+	.linkbar_btn{
+		font-size:1.1em;
+	}
+	.stafflist{
+		width:440px;
+	}
+	.linkbar_btn img{
+		height:40px;
+		width:40px;
+	}
+	.linkbar{
+		height:44px;
+	}
+}
+@media (width>=360px) and (width<480px) {
+	body{
+		font-size:16px;
+	}
+	.linkbar_btn{
+		font-size:1.0em;
+	}
+	.stafflist{
+		width:350px;
+	}
+	.linkbar_btn img{
+		height:32px;
+		width:32px;
+	}
+	.linkbar{
+		height:36px;
+	}
+}
+@media (width<360px) {
+	body{
+		font-size:14px;
+	}
+	.linkbar_btn{
+		font-size:1.1em;
+	}
+	.stafflist{
+		width:300px;
+	}
+	.linkbar_btn img{
+		height:32px;
+		width:32px;
+	}
+	.linkbar{
+		height:36px;
+	}
 }

@@ -7,7 +7,7 @@
 	
 	
 	
-	<div class="snsbar">
+	<div class="flexrow mobile-pivot-late">
 		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_larg twitter">
 			<img src="siteicons/favicon_x.png"/>공식 트위터(X)
 		</a>
@@ -19,7 +19,7 @@
 	<div class="introtext" style="margin-bottom:-16px;">
 		<span style="font-size:0.8em;">공식 이메일</span>
 	</div>
-	<img src="images/email_addr_nocaption.png" style="max-width:360px;"/>
+	<img src="images/email_addr_nocaption.png" style="width:100%;max-width:340px;"/>
 	
 	<div class="divider" style="height:3px;"></div>
 	
@@ -50,7 +50,7 @@
 			<div class="staffdesc">
 				<div class="staffname">양말</div>
 				<div class="staffbio">웹디자인, 패널 진행</div>
-				<div class="staffsns">
+				<div class="staffsns mobile-pivot-late">
 					<a href="https://x.com/SheepPony" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
 					</a>
