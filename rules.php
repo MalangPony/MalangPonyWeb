@@ -10,4 +10,6 @@
 <iframe src="ruledoc_edit.html" style="width:100%;flex-grow:1;">
 </iframe>
 
+<div style="height:10px"></div> <!--Leave a gap on the bottom-->
+
 <?php include 'footer.php'; ?>
