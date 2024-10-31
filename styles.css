@@ -402,22 +402,40 @@ a.snsbtn{
 	bottom:0;
 	left:0;
 	flex-direction:row;
-	align-items:flex-end;
+	align-items:stretch;
 	z-index:-100;
 }
-.bgdisp > div{
+.bg_spacer{
 	opacity:0.4;
-	flex-grow:1;
-	width:600px;
+	width:560px;
 	flex-shrink:0;
-}
-.bgdisp img{
-	opacity:0.2;
-	max-height:600px;
-	max-width:600px;
-	min-width:100px;
-	flex-shrink:1;
 	flex-grow:0;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+}
+.bg_container{
+	width:0;
+	flex-grow:1;
+	display:flex;
+	flex-direction:column;
+}
+.bg_topbg_left{
+	align-items:flex-start;
+}
+.bg_right{
+	align-items:flex-end;
+}
+.bg_top{
+	justify-content:flex-start;
+}
+.bg_btm{
+	justify-content:flex-end;
+}
+.bg_container img{
+	opacity:0.2;
+	width:100%;
+	max-width:600px;
 }
 
 .bottom_floater{

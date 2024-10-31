@@ -17,21 +17,37 @@
 <div class="bgdisp">
 	<?php $roll=rand()%4; ?>
 	<?php if ($roll==0): ?>
-		<img src="images/KMR_CloseCrop-SizEq_1000px.png" />
-		<div>Art by SheepPony</div>
-		<img src="images/HMR_CloseCrop_1000px.png" />
+		<div class="bg_container bg_btm bg_left">
+			<img src="images/KMR_CloseCrop-SizEq_1000px.png" />
+		</div>
+		<div class="bg_spacer">Art by SheepPony</div>
+		<div class="bg_container bg_btm bg_right">
+			<img src="images/HMR_CloseCrop_1000px.png" />
+		</div>
 	<?php elseif ($roll==1): ?>
-		<img src="images/CM_CropA_L_1000px.png" style="align-self:flex-start;"/>
-		<div></div>
-		<img src="images/CM_CropA_R_1000px.png" style="align-self:flex-end;"/>
+		<div class="bg_container bg_top bg_left">
+			<img src="images/CM_CropA_L_1000px.png"/>
+		</div>
+		<div class="bg_spacer"></div>
+		<div class="bg_container bg_btm bg_right">
+			<img src="images/CM_CropA_R_1000px.png" />
+		</div>
 	<?php elseif ($roll==2): ?>
-		<img src="images/CESS_OpenMeet_20240906_EDIT_ISOLATED-Harder.png"/>
-		<div>Art by TruthOrMare</div>
-		<img src="images/Cute_Mare_Enjoyers_6_EDIT.png"/>
+		<div class="bg_container bg_btm bg_left">
+			<img src="images/CESS_OpenMeet_20240906_EDIT_ISOLATED-Harder.png"/>
+		</div>
+		<div class="bg_spacer">Art by TruthOrMare</div>
+		<div class="bg_container bg_btm bg_right">
+			<img src="images/Cute_Mare_Enjoyers_6_EDIT.png"/>
+		</div>
 	<?php else: ?>
-		<img src="images/detail_hanmari_rot180.png" style="align-self:flex-start;"/>
-		<div>Art by DETAIL &amp; Interrupter</div>
-		<img src="images/interrupter_hanmari1_NoBG.png" style="align-self:flex-end;"/>
+		<div class="bg_container bg_top bg_left">
+			<img src="images/detail_hanmari_rot180.png"/>
+		</div>
+		<div class="bg_spacer">Art by DETAIL &amp; Interrupter</div>
+		<div class="bg_container bg_btm bg_right">
+			<img src="images/interrupter_hanmari1_NoBG.png"/>
+		</div>
 	<?php endif; ?>
 </div>
 </body>
