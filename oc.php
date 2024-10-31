@@ -31,24 +31,23 @@
 	
 	<div class="normaltext">
 		<p>
-			<span class="nobreak"><span class="hanmari mari_big">한마리</span>는 아이돌로 활동중인 </span>
-			<span class="nobreak">발랄 명량 여자아이입니다.</span>
-			<span class="nobreak">단청색의 갈기가 특징입니다.</span>
+			<span class="nobreak"><span class="hanmari mari_big">한마리</span>는 아이돌로 활동중인 어스포니로, </span>
+			<span class="nobreak">발랄 명랑한 성격과 </span>
+			<span class="nobreak">단청색으로 염색한 갈기가 특징입니다.</span>
 		</p>
 		<p>
-			<span class="nobreak"><span class="kimmari mari_big">김마리</span>는 <span class="hanmari">한마리</span>의 본명으로,</span>
-			<span class="nobreak">아이돌 활동중이 아닐 때의 </span>
-			<span class="nobreak">평범한 고등학생의 모습입니다.</span>
+			<span class="nobreak">본명은 <span class="kimmari mari_big">김마리</span>이며, </span>
+			<span class="nobreak">정체를 숨기고 평범한 학생인 </span>
+			<span class="nobreak">것처럼 생활하고 있습니다.</span>
 		</p>
-		<p style="margin-top:8px;"><em>주의:둘은 같은 인물입니다!</em></p>
 	</div>
 	
 	<p class="normaltext">
-		<span class="nobreak"><span class="hanmari">한마리</span> 또는 <span class="kimmari">김마리</span> 팬아트는 </span>
+		<span class="nobreak"><span class="hanmari">한마리</span>, <span class="kimmari">김마리</span> 팬아트는 </span>
 		<span class="nobreak">언제든 환영입니다!</span><br>
 		<span class="nobreak">다만 수위가 높은 그림은 자제해 주세요.</span><br>
 		<span class="nobreak">트위터나 블루스카이에서 </span>
-		<span class="nobreak">공식 계정 태그와 함께 업로드를 하면, </span><br>
+		<span class="nobreak">공식 계정 태그와 함께 업로드를 하면, </span>
 		<span class="nobreak">이 사이트 배경에 추가 될 수도...?</span>
 	</p>
 	
