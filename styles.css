@@ -467,26 +467,34 @@ a.link_with_icon{
 	flex-wrap:wrap;
 }
 
-
+/* I hate safari */
+/* Explanation: Safari renders the text-shadow effect */
+/* with some weird 3D shenanigans that result in a very different looking */
+/* shadows compared to chrome or firefox.*/
+/* Using drop-shadow is a good enough workaround. */
 .hanmari{
 	color:#ffffff;
 	font-weight:bold;
-	text-shadow: #000000FF 0 0 4px;
+	/*text-shadow: #000000FF 0 0 4px;*/
+	filter: drop-shadow(0px 0px 3px #000000C0);
 }
 .kimmari{
 	color:#404040;
 	font-weight:bold;
-	text-shadow:#FFFFFFFF 0 0 4px;
+	/*text-shadow:#FFFFFFFF 0 0 4px;*/
+	filter: drop-shadow(0px 0px 3px #FFFFFFFF);
 }
 
 .mari_big{
 	font-size:1.5em;
 }
 .hanmari.mari_big{
-	text-shadow: #00000080 0 0 6px;
+	/*text-shadow: #00000080 0 0 6px;*/
+	filter: drop-shadow(0px 0px 4px #000000D0);
 }
 .kimmari.mari_big{
-	text-shadow:#FFFFFFD0 0 0 6px;
+	/*text-shadow:#FFFFFFD0 0 0 6px;*/
+	filter: drop-shadow(0px 0px 4px #FFFFFFD0);
 }
 
 .placeholder{
