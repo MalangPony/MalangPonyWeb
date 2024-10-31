@@ -52,7 +52,7 @@
 		<span class="nobreak">이 사이트 배경에 추가 될 수도...?</span>
 	</p>
 	
-	<?//php if(0): ?>
+	<?php if(0): ?>
 	<div class="normaltext">
 		<h2>팬아트 갤러리</h2>
 	</div>
@@ -99,7 +99,7 @@
 		</div>
 	</div>
 
-	<?//php endif; ?>
+	<?php endif; ?>
 
 	
 <?php include 'footer.php'; ?>
