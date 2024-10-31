@@ -10,7 +10,7 @@
 	</p>
 	
 	
-	<table class="timetable">
+	<table class="timetable" style="margin-top:-20px;margin-bottom:-20px;">
 		<!-- kinda self evident
 		<tr>
 			<th>시간</th>
@@ -112,7 +112,7 @@
 			<td class="tt_expl" rowspan="2">
 				<span class="nobreak">막장 포니 </span>
 				<span class="nobreak">커플링 보드게임, </span><br>
-				<span class="nobreak">TSSSF의 플레이 방법을 </span>
+				<span class="nobreak">TSSSF<sup>*</sup>의 플레이 방법을 </span>
 				<span class="nobreak">설명해 드립니다!</span>
 			</td>
 		</tr>
@@ -128,7 +128,7 @@
 				</div>
 			</td>
 			<td class="tt_expl" rowspan="8">
-				<span class="nobreak">TSSSF, Prance, </span>
+				<span class="nobreak">TSSSF<sup>*</sup>, Prance, </span>
 				<span class="nobreak">Stardust, PUNO 등 </span><br>
 				<span class="nobreak">여러 포니 보드게임을 하며 </span>
 				<span class="nobreak">친목을 다져보세요!</span>
@@ -169,5 +169,11 @@
 		<tr></tr>
 	</table>
 	
+	<div class="normaltext" style="font-size:0.8em; margin-top:-8px;">
+        <p class="reverse-indent-2em">
+        <span class="nobreak">* TSSSF = </span>
+        <span class="nobreak"><em>Twilight Sparkle's Secret Shipfic Folder</em></span>
+        </p>
+    </div>
 	
 <?php include 'footer.php'; ?>
