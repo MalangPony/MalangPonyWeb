@@ -13,9 +13,9 @@
 	<div class="image-with-text">
 		<a href="images/KimmariREF_Full.png"><img src="images/KimmariREF_Rsz40p-JPG90.jpg" style="max-width:100%;filter:drop-shadow(3px 3px 5px #00000080);"/></a>
 		<div class="imgdesc">
-			Poster drawn by 
+			레퍼런스 시트 제작 : 
 			<a class="actual_link link_with_icon" href="https://x.com/Marenlicious">
-				Maren
+				Marenlicious
 				<img src="siteicons/favicon_x.png" 
 					class="imgdesc_snsicon"
 					width="24px" height="24px">
