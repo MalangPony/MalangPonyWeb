@@ -69,7 +69,7 @@ body{height:100%;}
 		</a>
 		<a href="staff.php">
 			<div class="linkbar_btn linkbar_purple <?php if ($pagename=='staff') echo 'linkbar_selected'; ?>">
-			문의
+			크레딧
 			</div>
 		</a>
 		<a href="oc.php">

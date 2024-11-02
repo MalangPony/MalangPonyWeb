@@ -8,7 +8,8 @@
 		<span class="nobreak">프로그램으로 진행되는</span><br>
 		<span class="nobreak">마이리틀포니 팬 이벤트입니다.</span>
 	</p>
-	<div class="normaltext">
+	
+	<div class="normaltext" style="margin-top:-16px;">
 	
 	<h2>이벤트 일정 및 장소</h2>
 	<p>
@@ -59,6 +60,32 @@
 		<span class="nobreak">※ 상황에 따라 </span>
 		<span class="nobreak">내용이 변경될 수 있습니다.</span>
 	</p>
+	
+	<h2>문의</h2>
+	
+	<div>
+		<strong>공식 이메일</strong>
 	</div>
+	<img src="images/email_addr_nocaption.png" style="width:100%;max-width:240px;"/>
+	
+	<div style="margin-top:8px;">
+		<strong>공식 SNS</strong>
+	</div>
+	<div style="display:flex; gap:16px; margin:4px;">
+		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_smol twitter">
+			<img src="siteicons/favicon_x.png"/>공식 트위터(X)
+		</a>
+		<a href="https://bsky.app/profile/malangpony.bsky.social" class="snsbtn snsbtn_smol bluesky">
+			<img src="siteicons/favicon_bsky_white.png"/>공식 블루스카이
+		</a>
+	</div>
+	
+	
+	
+	</div>
+	
+	
+	
+	
 	
 <?php include 'footer.php'; ?>
