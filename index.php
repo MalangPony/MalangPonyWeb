@@ -30,9 +30,20 @@
 		</a>
 	</div>
 	
-	<a href="images/Poster_Extension_rev6_NoQR-Crop.png">
-		<img src="images/Poster_Extension_rev6_NoQR-Crop_ResizeW1000px-JPG85.jpg" style="width:100%; max-width:540px;filter:drop-shadow(3px 3px 5px #00000080);"/>
-	</a>
+	<div class="image-with-text">
+		<a href="images/Poster_Extension_rev6_NoQR-Crop.png">
+			<img src="images/Poster_Extension_rev6_NoQR-Crop_ResizeW1000px-JPG85.jpg" style="width:100%; max-width:540px;filter:drop-shadow(3px 3px 5px #00000080);"/>
+		</a>
+		<div class="imgdesc">
+			Poster drawn by
+			<a class="actual_link link_with_icon" href="https://x.com/Libbly_Libby">
+				Libby
+				<img src="siteicons/favicon_x.png" 
+					class="imgdesc_snsicon"
+					width="24px" height="24px">
+			</a>
+		</div>
+	</div>
 	
 	<p class="introtext">
 	<span class="nobreak">행사까지... </span>

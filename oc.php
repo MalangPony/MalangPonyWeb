@@ -9,9 +9,21 @@
 		<span class="nobreak"><span class="hanmari mari_big">한마리</span>를 소개합니다!</span>
 	</p>
 	
-	<a href="images/KimmariREF_Full.png"><img src="images/KimmariREF_Rsz40p-JPG90.jpg" style="max-width:100%;filter:drop-shadow(3px 3px 5px #00000080);"/></a>
 	
-	<div class="normaltext flexrow mobile-pivot-late" style="margin-top:-8px;gap:4px;">
+	<div class="image-with-text">
+		<a href="images/KimmariREF_Full.png"><img src="images/KimmariREF_Rsz40p-JPG90.jpg" style="max-width:100%;filter:drop-shadow(3px 3px 5px #00000080);"/></a>
+		<div class="imgdesc">
+			Poster drawn by 
+			<a class="actual_link link_with_icon" href="https://x.com/Marenlicious">
+				Maren
+				<img src="siteicons/favicon_x.png" 
+					class="imgdesc_snsicon"
+					width="24px" height="24px">
+			</a>
+		</div>
+	</div>
+	
+	<div class="normaltext flexrow mobile-pivot-late" style="margin-top:-12px;gap:4px;">
 		<a class="actual_link link_with_icon" href="images/KimmariREF_Full.png" download>
 			레퍼런스 시트
 			<img src="sprites/download_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
