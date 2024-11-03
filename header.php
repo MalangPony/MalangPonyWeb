@@ -9,6 +9,7 @@ Sorry for the spaghetti.
 <title>
 말랑포니!<?php if ($pagename_kor!='') echo " - {$pagename_kor}"; ?>
 </title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <?php if ($pagename=="index"): ?>
 	<meta property="og:title" content="말랑포니!" />
 	<meta property="og:type" content="website" />
