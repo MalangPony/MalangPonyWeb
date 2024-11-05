@@ -431,7 +431,7 @@ a.snsbtn{
 }
 .bg_spacer{
 	opacity:0.4;
-	width:560px;
+	width:500px;
 	flex-shrink:0;
 	flex-grow:0;
 	display:flex;
