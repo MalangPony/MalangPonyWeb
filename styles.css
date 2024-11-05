@@ -24,6 +24,9 @@ img{
 	display:block;
 }
 
+a.plainlink{
+	text-decoration:none;
+}
 #content{
 	box-sizing: border-box;
 	width:100%;
@@ -359,6 +362,115 @@ a.snsbtn{
 	gap:8px;
 }
 
+
+
+.newslist{
+	display:flex;
+	flex-direction:column;
+	width:500px;
+	gap:8px;
+}
+.newspost{
+	position:relative;
+	display:flex;
+	flex-direction:row;
+	
+	font-family:"Noto Sans KR";
+	font-weight: normal;
+	filter:drop-shadow(0 0 4px #00000080);
+	/*border: 1px solid black;*/
+	
+	text-decoration:none;
+	color: #5f4385;
+	
+	border-radius:12px;
+	overflow:hidden;
+}
+
+.newspic{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	margin-right:4px;
+}
+.newspic > img{
+	object-fit: cover;
+	border-radius: 5px;
+	width:100px;
+	height:100px;
+}
+.newsbody{
+	display:flex;
+	flex-direction:column;
+	gap:4px;
+	flex-grow:1;
+	padding:8px;
+	align-items:stretch;
+	width:0;
+}
+.newsbody > div {
+	text-align:left;
+	
+}
+.newsname{
+	font-size:1.2em;
+	font-weight:bold;
+	display:none
+}
+.newstext{
+	font-size:1.0em;
+	mask-image: linear-gradient(to right, rgba(0,0,0,1) 60%, rgba(0,0,0,0));
+	overflow:hidden;
+	white-space: nowrap;
+	
+}
+.newsbuttons{
+	margin-top:0.5em;
+	display:flex; 
+	flex-direction:row; 
+	justify-content:start; 
+	align-items:flex-start;
+	gap:8px;
+}
+.newsdivider{
+	height:2px;
+	background-color:#5f4385;
+}
+.newstop{
+	display:flex;
+	flex-direction:row;
+	gap:12px;
+}
+.newstime{
+	font-size:0.8em;
+	align-self:flex-start;
+}
+.newsbgtop{
+	position: absolute;
+	top:0px; 
+	left:0px; 
+	bottom:0px; 
+	right:0px;
+	z-index:-5;
+	opacity:0.9;
+	background-color:#FFF;
+}
+.newsbg{
+	position: absolute;
+	top:0px; 
+	left:0px; 
+	bottom:0px; 
+	right:0px;
+	z-index:-10;
+	background-position: center center;
+	background-size: cover;
+	filter: blur(3px);
+}
+.newsbottom{
+	display:flex;
+	align-items:center;
+}
+
 .timetable{
 	font-family:"Noto Sans KR";
 	font-weight: normal;
@@ -647,6 +759,9 @@ a.link_with_icon{
 	.stafflist{
 		width:440px;
 	}
+	.newslist{
+		width:440px;
+	}
 	.linkbar_btn img{
 		height:40px;
 		width:40px;
@@ -665,6 +780,9 @@ a.link_with_icon{
 	.stafflist{
 		width:350px;
 	}
+	.newslist{
+		width:350px;
+	}
 	.linkbar_btn img{
 		height:32px;
 		width:32px;
@@ -681,6 +799,9 @@ a.link_with_icon{
 		font-size:1.1em;
 	}
 	.stafflist{
+		width:300px;
+	}
+	.newslist{
 		width:300px;
 	}
 	.linkbar_btn img{

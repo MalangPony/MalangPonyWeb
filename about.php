@@ -57,9 +57,17 @@
 		<span class="nobreak">행사의 마지막, 추첨을 통해 </span>
 		<span class="nobreak">경품을 얻을 수 있는 기회!!</span>
 		</div>
+		<br>
 		<span class="nobreak">※ 상황에 따라 </span>
 		<span class="nobreak">내용이 변경될 수 있습니다.</span>
 	</p>
+	
+	<h2>규칙</h2>
+	<div style="display:flex; margin:8px;">
+	<a href="https://docs.google.com/document/d/11XDNlKloGKBTEW-qNL22HraccrRtsx_0KvW4jBoenZQ/edit?usp=drive_link" class="snsbtn snsbtn_larg google">
+		<img src="siteicons/favicon_ggl.png"/>규칙 문서
+	</a>
+	</div>
 	
 	<h2>문의</h2>
 	
