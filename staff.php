@@ -13,14 +13,15 @@
 		운영진
 	</div>
 	
-	<div class="stafflist">
-		<div class="staffprofile">
-			<div class="staffpic">
+	<div class="cardlist stafflist">
+		<div class="cardpost">
+			<div class="cardpic">
 				<img src="staffprofile/t43rZGOF_400x400.jpg"/>
 			</div>
-			<div class="staffdesc">
+			<div class="cardbody">
 				<div class="staffname">종이수술</div>
-				<div class="staffbio">주최</div>
+					<div class="staffbio">주최</div>
+				<div style="flex-grow:1;"></div>
 				<div class="staffsns">
 					<a href="https://x.com/PaperSurgery" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
@@ -29,14 +30,15 @@
 			</div>
 		</div>
 		
-		<div class="staffprofile">
-			<div class="staffpic">
+		<div class="cardpost">
+			<div class="cardpic">
 				<img src="staffprofile/4tqmb67F_400x400.jpg"/>
 			</div>
-			<div class="staffdesc">
+			<div class="cardbody">
 				<div class="staffname">양말</div>
-				<div class="staffbio">웹디자인, 패널 진행</div>
-				<div class="staffsns mobile-pivot-late">
+					<div class="staffbio">웹디자인, 패널 진행</div>
+				<div style="flex-grow:1;"></div>
+				<div class="staffsns">
 					<a href="https://x.com/SheepPony" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
 					</a>
@@ -47,13 +49,14 @@
 			</div>
 		</div>
 		
-		<div class="staffprofile">
-			<div class="staffpic">
+		<div class="cardpost">
+			<div class="cardpic">
 				<img src="staffprofile/hBfQVaXA_400x400.jpg"/>
 			</div>
-			<div class="staffdesc">
+			<div class="cardbody">
 				<div class="staffname">쇼트케이크</div>
-				<div class="staffbio">현장 관리, 패널 진행</div>
+					<div class="staffbio">현장 관리, 패널 진행</div>
+				<div style="flex-grow:1;"></div>
 				<div class="staffsns">
 					<a href="https://x.com/ShortcakeSweetz" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
@@ -62,13 +65,14 @@
 			</div>
 		</div>
 		
-		<div class="staffprofile">
-			<div class="staffpic">
+		<div class="cardpost">
+			<div class="cardpic">
 				<img src="staffprofile/bafkreigpscqqwouemompp7g7ng76ge27nuaqcc5lwzr4awgp7rylng7v3m.jpg"/>
 			</div>
-			<div class="staffdesc">
+			<div class="cardbody">
 				<div class="staffname">Nine the Divine</div>
-				<div class="staffbio">디자인, 홍보</div>
+					<div class="staffbio">디자인, 홍보</div>
+				<div style="flex-grow:1;"></div>
 				<div class="staffsns">
 					<a href="https://bsky.app/profile/ninethedivine.bsky.social"  class="snsbtn snsbtn_smol bluesky">
 						<img src="siteicons/favicon_bsky_white.png"/>블루스카이
@@ -77,13 +81,14 @@
 			</div>
 		</div>
 		
-		<div class="staffprofile">
-			<div class="staffpic">
+		<div class="cardpost">
+			<div class="cardpic">
 				<img src="staffprofile/Profile512s.png"/>
 			</div>
-			<div class="staffdesc">
+			<div class="cardbody">
 				<div class="staffname">EightonEight</div>
-				<div class="staffbio">서무</div>
+					<div class="staffbio">서무</div>
+				<div style="flex-grow:1;"></div>
 				<div class="staffsns">
 					<a href="https://blog.naver.com/fbud818" class="snsbtn snsbtn_smol naver">
 						<img src="siteicons/favicon_nblog.png"/>네이버 블로그
@@ -92,13 +97,14 @@
 			</div>
 		</div>
 		
-		<div class="staffprofile">
-			<div class="staffpic">
+		<div class="cardpost">
+			<div class="cardpic">
 				<img src="staffprofile/zKs9sTeP_400x400.jpg"/>
 			</div>
-			<div class="staffdesc">
+			<div class="cardbody">
 				<div class="staffname">메가타로</div>
-				<div class="staffbio">현장 관리</div>
+					<div class="staffbio">현장 관리</div>
+				<div style="flex-grow:1;"></div>
 				<div class="staffsns">
 					<a href="https://x.com/megatarot" class="snsbtn snsbtn_smol twitter">
 						<img src="siteicons/favicon_x.png"/>트위터(X)
@@ -107,6 +113,7 @@
 			</div>
 		</div>
 	</div>
+	
 	
 	<div class="divider" style="height:3px;"></div>
 	
