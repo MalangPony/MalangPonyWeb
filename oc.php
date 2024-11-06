@@ -63,54 +63,98 @@
 		<span class="nobreak">이 사이트 배경에 추가 될 수도...?</span>
 	</p>
 	
-	<?php if(0): ?>
+	
 	<div class="normaltext">
 		<h2>팬아트 갤러리</h2>
+		<p style="font-size:0.8em;opacity:0.5;">스태프가 그린 것도 팬아트인가...?</p>
 	</div>
 	<div class="fanart_gallery" style="width:100%; margin-top:-10px;">
 		<div class="fanart_container">
-			<a href="https://x.com/SheepPony">
+			<a href="https://x.com/Marenlicious/status/1823670775020446095">
+				<img class="fanart_thumb" src="fanarts_thumb/bcvwYaE4_THUMB.jpg"/>
+			</a>
+			<a class="actual_link link_with_icon" href="https://x.com/Marenlicious">
+				<img src="sprites/brush_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+					width="20px" height="20px">
+				마렌
+				
+			</a>
+		</div>
+		<div class="fanart_container">
+			<a href="fanarts_orig/MLPp114_rev24_FANCY.png">
 				<img class="fanart_thumb" src="fanarts_thumb/MLPp114_rev24_FANCY_THUMB.jpg"/>
 			</a>
 			<a class="actual_link link_with_icon" href="https://x.com/SheepPony">
-				By SheepPony
-				<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+				<img src="sprites/brush_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
 					width="20px" height="20px">
+				양말
 			</a>
 		</div>
 		<div class="fanart_container">
-			<a href="https://x.com/0interrupter0">
+			<a href="fanarts_orig/kimaribunnty123.png">
 				<img class="fanart_thumb" src="fanarts_thumb/kimaribunnty123_THUMB.jpg"/>
 			</a>
 			<a class="actual_link link_with_icon" href="https://x.com/0interrupter0">
-				By Interrupter
-				<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+				<img src="sprites/brush_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
 					width="20px" height="20px">
+				인터럽터
 			</a>
 		</div>
 		<div class="fanart_container">
-			<a href="https://x.com/0interrupter0">
+			<a href="fanarts_orig/MARIHAN.png">
 				<img class="fanart_thumb" src="fanarts_thumb/MARIHAN_THUMB.jpg"/>
 			</a>
 			<a class="actual_link link_with_icon" href="https://x.com/0interrupter0">
-				By Interrupter
-				<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+				<img src="sprites/brush_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
 					width="20px" height="20px">
+				인터럽터
 			</a>
 		</div>
 		<div class="fanart_container">
-			<a href="https://ponerpics.org/profiles/TruthOrMare">
+			<a href="fanarts_orig/Cute_Mare_Enjoyers_6.png">
 				<img class="fanart_thumb" src="fanarts_thumb/Cute_Mare_Enjoyers_6_THUMB.jpg"/>
 			</a>
-			<a class="actual_link link_with_icon" href="https://ponerpics.org/profiles/TruthOrMare">
-				By TruthOrMare
-				<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+			<a class="actual_link link_with_icon">
+				<img src="sprites/brush_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
 					width="20px" height="20px">
+				TruthOrMare
+			</a>
+		</div>
+		
+		<div class="fanart_container">
+			<a href="fanarts_orig/241104.png">
+				<img class="fanart_thumb" src="fanarts_thumb/241104_THUMB.jpg"/>
+			</a>
+			<a class="actual_link link_with_icon">
+				<img src="sprites/brush_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+					width="20px" height="20px">
+				마싱는수박
+			</a>
+		</div>
+		<div class="fanart_container">
+			<a href="https://x.com/ruto_me/status/1853836190560260182">
+				<img class="fanart_thumb" src="fanarts_thumb/GbomMPfa8AAztyk_CROP_THUMB.jpg"/>
+			</a>
+			<a class="actual_link link_with_icon" href="https://x.com/ruto_me">
+				<img src="sprites/brush_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+					width="20px" height="20px">
+				루토
+				
+			</a>
+		</div>
+		<div class="fanart_container">
+			<a href="https://x.com/Rezina0_09/status/1853765313155957104">
+				<img class="fanart_thumb" src="fanarts_thumb/GbnlubHbEAANgKq_THUMB.jpg"/>
+			</a>
+			<a class="actual_link link_with_icon" href="https://x.com/Rezina0_09">
+				<img src="sprites/brush_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png"
+					width="20px" height="20px">
+				Rezina
+				
 			</a>
 		</div>
 	</div>
-
-	<?php endif; ?>
+	
 
 	
 <?php include 'footer.php'; ?>
