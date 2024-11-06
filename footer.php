@@ -15,7 +15,7 @@
 <?php endif; ?>
 
 <div class="bgdisp">
-	<?php $roll=rand()%6; ?>
+	<?php $roll=rand()%7; ?>
 	<?php if ($roll==0): ?>
 		<div class="bg_container bg_top bg_left">
 			<img src="bgimg/0L_CM.png"/>
@@ -56,13 +56,21 @@
 		<div class="bg_container bg_btm bg_right">
 			<img src="bgimg/4R_TruthOrMare.png"/>
 		</div>
-	<?php else: ?>
+	<?php elseif ($roll==5): ?>
 		<div class="bg_container bg_top bg_left">
 			<img src="bgimg/5L_DETAIL.png"/>
 		</div>
 		<div class="bg_spacer">Art by DETAIL &amp; TastiMelon</div>
 		<div class="bg_container bg_btm bg_right">
 			<img src="bgimg/5R_TastiMelon.png"/>
+		</div>
+	<?php else: ?>
+		<div class="bg_container bg_btm bg_left">
+			<img src="bgimg/6L_Ruto.png"/>
+		</div>
+		<div class="bg_spacer">Art by Ruto &amp; Rezina</div>
+		<div class="bg_container bg_btm bg_right">
+			<img src="bgimg/6R_Rezina.png"/>
 		</div>
 	<?php endif; ?>
 </div>
