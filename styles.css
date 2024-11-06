@@ -367,7 +367,8 @@ a.snsbtn{
 .newslist{
 	display:flex;
 	flex-direction:column;
-	width:500px;
+	width:100%;
+	box-sizing: border-box;
 	gap:8px;
 }
 .newspost{
@@ -759,9 +760,6 @@ a.link_with_icon{
 	.stafflist{
 		width:440px;
 	}
-	.newslist{
-		width:440px;
-	}
 	.linkbar_btn img{
 		height:40px;
 		width:40px;
@@ -780,9 +778,6 @@ a.link_with_icon{
 	.stafflist{
 		width:350px;
 	}
-	.newslist{
-		width:350px;
-	}
 	.linkbar_btn img{
 		height:32px;
 		width:32px;
@@ -799,9 +794,6 @@ a.link_with_icon{
 		font-size:1.1em;
 	}
 	.stafflist{
-		width:300px;
-	}
-	.newslist{
 		width:300px;
 	}
 	.linkbar_btn img{

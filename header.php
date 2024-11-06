@@ -52,19 +52,20 @@ body{height:100%;}
 			소개
 			</div>
 		</a>
+		<!--
 		<a href="news.php">
 			<div class="linkbar_btn linkbar_yellow <?php if ($pagename=='news') echo 'linkbar_selected'; ?>">
 			소식
 			</div>
-		</a>
+		</a>-->
 		<a href="register.php">
-			<div class="linkbar_btn linkbar_blue <?php if ($pagename=='register') echo 'linkbar_selected'; ?>">
-			등록
+			<div class="linkbar_btn linkbar_yellow <?php if ($pagename=='register') echo 'linkbar_selected'; ?>">
+			사전등록
 			</div>
 		</a>
 		
 		<a href="rules.php">
-			<div class="linkbar_btn linkbar_yellow <?php if ($pagename=='rules') echo 'linkbar_selected'; ?>">
+			<div class="linkbar_btn linkbar_blue <?php if ($pagename=='rules') echo 'linkbar_selected'; ?>">
 			규칙
 			</div>
 		</a>
