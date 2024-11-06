@@ -629,6 +629,9 @@ a.link_with_icon{
 	justify-content:space-evenly;
 	width: 100%;;
 	flex-wrap: wrap;
+	
+	font-family:"Noto Sans KR";
+	font-weight: normal;
 }
 .fanart_container{
 	margin:8px;

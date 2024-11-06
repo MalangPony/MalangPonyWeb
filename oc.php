@@ -63,7 +63,7 @@
 		<span class="nobreak">이 사이트 배경에 추가 될 수도...?</span>
 	</p>
 	
-	
+	<?php if (0): ?>
 	<div class="normaltext">
 		<h2>팬아트 갤러리</h2>
 		<p style="font-size:0.8em;opacity:0.5;">스태프가 그린 것도 팬아트인가...?</p>
@@ -154,7 +154,7 @@
 			</a>
 		</div>
 	</div>
-	
+	<?php endif; ?>
 
 	
 <?php include 'footer.php'; ?>
