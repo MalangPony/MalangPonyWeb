@@ -111,6 +111,27 @@
 		</div>
 		</a>
 		-->
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lakzdurff22p" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(bgimg_orig/CM_CropA_R_1000px.png);"></div>
+			<div class="cardpic">
+				<img src="bgimg_orig/CM_CropA_L_1000px.png"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">말랑포니 공식 웹사이트가 있다는 것을 알고 계셨나요?<br>
+행사 개요, 사전등록 링크, 시간표 등을 한눈에 확인하실 수 있답니다!</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/11/10</div>
+					<div style="flex-grow:1;"></div>
+					<!--<div class="newstime">블루스카이에서 보기</div>-->
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+					<!--<img src="siteicons/favicon_bsky.png" width="20px" height="20px" style="align-self:flex-end;"/>-->
+				</div>
+			</div>
+		</div>
+		</a>
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3la6pqogfgg2d" class="plainlink">
 		<div class="cardpost">
 			<div class="cardbgtop"></div>
