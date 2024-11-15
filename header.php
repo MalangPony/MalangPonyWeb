@@ -14,7 +14,7 @@ Sorry for the spaghetti.
 	<meta property="og:title" content="말랑포니!" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://malangpony.com" />
-	<meta property="og:image" content="http://malangpony.com/MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" />
+	<meta property="og:image" content="http://malangpony.com/images/MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" />
 	<meta property="og:description" content="2025년 2월 15일 개최되는 한국의 마이리틀포니 행사입니다!" />
 <?php endif; ?>
 <!--<meta name="viewport" content="width=480" />-->
