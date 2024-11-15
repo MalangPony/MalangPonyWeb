@@ -30,7 +30,7 @@
 					<span class="nobreak">참가자 입장</span>
 				</div>
 			</td>
-			<td class="tt_expl" rowspan="4"></td>
+			<td class="tt_expl" rowspan="4">10~11시 사이 편한 시간에 오시면 됩니다.</td>
 		</tr>
 		<tr >
 			<td class="tt_time" rowspan="2">10:30</td>
@@ -44,7 +44,7 @@
 				<div class="tt_trange">11:00 - 11:30</div>
 				<div class="tt_actname">개회식</div>
 			</td>
-			<td class="tt_expl" rowspan="2"></td>
+			<td class="tt_expl" rowspan="2">두근두근 행사의 시작!!</td>
 		</tr>
 		<tr >
 			<td class="tt_time" rowspan="2">11:30</td>
