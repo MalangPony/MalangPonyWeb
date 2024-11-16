@@ -111,6 +111,27 @@
 		</div>
 		</a>
 		-->
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lb24ljabgc2d" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/TTedit_rev3.png);"></div>
+			<div class="cardpic">
+				<img src="postimg/TTedit_rev3.png"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				말랑포니 행사의 전체 시간표입니다!<br>
+				각 패널에 대한 자세한 설명은 추후 개별 개시물로 공개해 드리겠습니다.
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/11/16</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lakzdurff22p" class="plainlink">
 		<div class="cardpost">
 			<div class="cardbgtop"></div>
@@ -153,6 +174,7 @@
 			</div>
 		</div>
 		</a>
+		<!--
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3l7x3wqcqu422" class="plainlink">
 		<div class="cardpost">
 			<div class="cardbgtop"></div>
@@ -166,13 +188,12 @@
 				<div class="newsbottom"> 
 					<div class="newstime">2024/11/02</div>
 					<div style="flex-grow:1;"></div>
-					<!--<div class="newstime">블루스카이에서 보기</div>-->
 					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
-					<!--<img src="siteicons/favicon_bsky.png" width="20px" height="20px" style="align-self:flex-end;"/>-->
 				</div>
 			</div>
 		</div>
 		</a>
+		-->
 		<div class="cardpost" style="height:16px;">
 			<div class="cardbgtop"></div>
 		</div>
