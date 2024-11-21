@@ -15,7 +15,16 @@
 <?php endif; ?>
 
 <div class="bgdisp">
-	<?php $roll=rand()%7; ?>
+	<?php $roll=rand()%9; ?>
+	
+	<?php
+	$qarr=array();
+	parse_str($_SERVER['QUERY_STRING'],$qarr);
+	if (array_key_exists("bg_override",$qarr)){
+		$roll=intval($qarr["bg_override"]);
+	}
+	?>
+	
 	<?php if ($roll==0): ?>
 		<div class="bg_container bg_top bg_left">
 			<img src="/bgimg/0L_CM.png"/>
@@ -64,7 +73,7 @@
 		<div class="bg_container bg_btm bg_right">
 			<img src="/bgimg/5R_TastiMelon.png"/>
 		</div>
-	<?php else: ?>
+	<?php elseif ($roll==6): ?>
 		<div class="bg_container bg_btm bg_left">
 			<img src="/bgimg/6L_Ruto.png"/>
 		</div>
@@ -72,6 +81,24 @@
 		<div class="bg_container bg_btm bg_right">
 			<img src="/bgimg/6R_Rezina.png"/>
 		</div>
+	<?php elseif ($roll==7): ?>
+		<div class="bg_container bg_btm bg_left">
+			<img src="/bgimg/7L_Interrupter.png"/>
+		</div>
+		<div class="bg_spacer">Art by Interrupter</div>
+		<div class="bg_container bg_btm bg_right">
+			<img src="/bgimg/7R_Interrupter.png"/>
+		</div>
+	<?php elseif ($roll==8): ?>
+		<div class="bg_container bg_btm bg_left">
+			<img src="/bgimg/8L_JullyPark.png"/>
+		</div>
+		<div class="bg_spacer">Art by Jully-Park</div>
+		<div class="bg_container bg_btm bg_right">
+			<img src="/bgimg/8R_JullyPark.png"/>
+		</div>
+	<?php else: ?>
+		
 	<?php endif; ?>
 </div>
 </body>

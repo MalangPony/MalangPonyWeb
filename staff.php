@@ -210,11 +210,11 @@
 		
 		<tr><td columnspan="2" class="spthank_spacer"></td></tr>
 		<tr>
-			<td class="spthank_desc" rowspan="6">팬아트</td>
+			<td class="spthank_desc" rowspan="7">팬아트</td>
 			<td class="spthank_name">DETAIL</td>
 		</tr>
 		<tr>
-			<td class="spthank_name">Interrupter</td>
+			<td class="spthank_name">인터럽터</td>
 		</tr>
 		<tr>
 			<td class="spthank_name">TruthOrMare</td>
@@ -227,6 +227,9 @@
 		</tr>
 		<tr>
 			<td class="spthank_name">Rezina</td>
+		</tr>
+		<tr>
+			<td class="spthank_name">Jully-Park</td>
 		</tr>
 		
 	</table>
