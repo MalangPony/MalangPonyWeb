@@ -111,6 +111,390 @@
 		</div>
 		</a>
 		-->
+		<!--
+		<a href="%%%" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(%%%);"></div>
+			<div class="cardpic">
+				<img src="%%%"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				%%%
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">%%%</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lfu4oyjcuk2l" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url();"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreieoxp6po2nzzfqupq74t2ob3qzasvn5q47rshx3mz6abn4kpqnzhm.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				말랑포니에 대한 여러분의 뜨거운 관심 덕분에 사전등록이 일찍 마감되었습니다. <br>
+				아쉽게도, 행사장 수용량 한계로 현장 등록은 받지 않습니다.
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2025/01/16</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lfjhjjujzs2v" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreiaazfwb4fenu5pd4vkbsuqdtuek7h5ajebwmls4px7as2icx5fnmi_RJ.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreiaazfwb4fenu5pd4vkbsuqdtuek7h5ajebwmls4px7as2icx5fnmi_RJ.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				말랑포니 운영진이 가지고 올 포니 플러시(인형) 일부를 소개합니다.<br>
+				여러분들도 멋진 포니 플러시를 가져와서 같이 사진을 찍어보세요!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2025/01/12</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lfgzqfs6fk27" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/vlcsnap-2025-01-11-15h05m50s919_SJ.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/vlcsnap-2025-01-11-15h05m50s919_SJ.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				Mantlegen님이 제작한 말랑포니 테마곡을 공개합니다!<br>
+				아래 영상 링크에서 확인하세요!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2025/01/11</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lf7tr3b2fk2z" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreif4nfptesb3iogjdpfqctsv53w2bpxasiubrpqn45dzp2lpafq7au_SJ.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreif4nfptesb3iogjdpfqctsv53w2bpxasiubrpqn45dzp2lpafq7au_SJ.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				열흘 뒤, 1월 18일에 사전등록이 마감될 예정입니다.<br>
+				사장 수용량 한계로 현장 등록을 받지 않을 예정이니, 
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2025/01/08</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lextpceofc2m" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreib2xdxb2bwvqknefqpzvvptohl7uj7bayydyq55lgdqez4kbbo7am.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreib2xdxb2bwvqknefqpzvvptohl7uj7bayydyq55lgdqez4kbbo7am.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				폐회식에서 추첨을 통해 얻을 수 있는 래플 경품을 공개합니다!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2025/01/05</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3ledbwip5322z" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreidgurtqnzc7643cdshe7zjm56zwhvlqohksgsu3xewifoxauddoje.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreidgurtqnzc7643cdshe7zjm56zwhvlqohksgsu3xewifoxauddoje.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				하울 수프 행사장에 말랑포니 홍보지가 배치되었습니다!<br>
+				위치는 하울 수프 본부석입니다~
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/12/28</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3le75dso5zs2x" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreichl7fsrk2vtjaciz3cbhz2giww7jwf6hkmoxc5gbxdfdi4qwbv5m.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreichl7fsrk2vtjaciz3cbhz2giww7jwf6hkmoxc5gbxdfdi4qwbv5m.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				｢드로잉 쇼 &amp; 다과회｣ 패널의 아티스트를 공개합니다!<br>
+				말랑포니에서 아티스트 분들에게 원하는 그림을 요청해보세요!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/12/26</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3ldrvtzk6jk2b" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreicqtox5ssyql2ulg7yzvlhaphuv33wac5hspmyappmk4h3vw6nfcm.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreicqtox5ssyql2ulg7yzvlhaphuv33wac5hspmyappmk4h3vw6nfcm.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				서울코믹월드 포니부스인 와포아기에 말랑포니 홍보지가 배치되었습니다!<br>
+				위치는 CG82입니다~
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/12/21</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3ldnkaovwlc2z" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreicqpq2dbdw7cq4xwticfqcwjblzsc4czzsgsjs3btmvqeazi7z5f4.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreicqpq2dbdw7cq4xwticfqcwjblzsc4czzsgsjs3btmvqeazi7z5f4.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				이번 주말 서울코믹월드 마이리틀포니 부스 ｢와포아기｣에 말랑포니 홍보지가 배치됩니다.<br>
+				다음 주말에 열리는 ｢하울 수프｣에도 홍보지를 배치할 예정이니 많은 관심 부탁드립니다!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/12/19</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3ldijdbsf5s2m" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreiatcrjdg4u562eoonmytl2ftkibdxxiugs23s7tu6to2gpwwiuslq.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreiatcrjdg4u562eoonmytl2ftkibdxxiugs23s7tu6to2gpwwiuslq.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				이번 행사의 장소, 그린라운지를 소개합니다!<br>
+				서울 지하철 5, 7호선 군자역 4번 출구에서 도보로 약 5분 거리에 있습니다.
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/12/17</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3ldd55ejarc2v" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreib2exmctlfsz4u5ozjlyfauz3w7qzyqvpembpjtsnjwf6t3kkn5bm.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreib2exmctlfsz4u5ozjlyfauz3w7qzyqvpembpjtsnjwf6t3kkn5bm.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				｢보드게임 &amp; 자유시간｣ 프로그램에서는 무엇을 할까요? 자유롭게 원하는 활동을 골라 즐겨보세요!<br>
+				TSSSF, Prance, PUNO 등의 보드게임을 하거나, 행사에서 제공하는 종이에 직접 포니들을 그릴 수도 있습니다.
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/12/15</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lczgjaetk22d" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreielmsrxnp4zllpvafwqglef47vzb5jawvfw2oaq3pw43dxbmkixma.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreielmsrxnp4zllpvafwqglef47vzb5jawvfw2oaq3pw43dxbmkixma.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				지난 주말 업로드했던 사진에 TSSSF 카드가 모두 한글로 되어 있는 것을 눈치채셨나요?<br>
+				말랑포니 행사에서는 TSSSF을 한글로 즐기실 수 있습니다!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/12/11</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lcovygmjfc23" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreihzzznkgfwgtsihleh6zjli5nzyucdjyq2smz3caguho5tjgevqsi.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreihzzznkgfwgtsihleh6zjli5nzyucdjyq2smz3caguho5tjgevqsi.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				보드게임을 20% 더 즐길 수 있게 준비했습니다.<br>
+				막장 포니 커플링 보드게임, TSSSF의 플레이 방법을 설명해 드립니다!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/12/07</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lc5cux43u223" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreicd5h5ty5fu73z5dn75bxqtplwrgi2gubn3hc7rheamvvbpdvsruy.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreicd5h5ty5fu73z5dn75bxqtplwrgi2gubn3hc7rheamvvbpdvsruy.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				간식과 함께하는 아티스트 초청 드로잉 쇼!<br>
+				세 분의 아티스트가 무대 위에서 리퀘스트를 추첨 받아 함께 그림을 그립니다!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/11/30</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lbw6wgogl22d" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreicpdh7ge7ldhw6c2wumkwilfybtst2kvjd5ggq7dgewouclnruupy.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreicpdh7ge7ldhw6c2wumkwilfybtst2kvjd5ggq7dgewouclnruupy.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				저번에 소개해 드린 우리'말' 겨루기의 예시 문제를 드리겠습니다!<br>
+				과연 정답은 무엇일까요?! 
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/11/27</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lblpvf3bdk2m" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreibatok6xw3yytdoap2gped7vfoavfs4k4zisvnpy46ucyr7o7wgwe.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreibatok6xw3yytdoap2gped7vfoavfs4k4zisvnpy46ucyr7o7wgwe.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				마이리틀포니에 대해 얼마나 알고 계신가요?<br>
+				팀을 이루어 흥미진진한 퀴즈쇼, 우리"말" 겨루기에 참여해 보세요.
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2024/11/23</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		-->
+		<!--
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lb24ljabgc2d" class="plainlink">
 		<div class="cardpost">
 			<div class="cardbgtop"></div>
@@ -132,6 +516,8 @@
 			</div>
 		</div>
 		</a>
+		-->
+		<!--
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lakzdurff22p" class="plainlink">
 		<div class="cardpost">
 			<div class="cardbgtop"></div>
@@ -146,13 +532,13 @@
 				<div class="newsbottom"> 
 					<div class="newstime">2024/11/10</div>
 					<div style="flex-grow:1;"></div>
-					<!--<div class="newstime">블루스카이에서 보기</div>-->
 					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
-					<!--<img src="siteicons/favicon_bsky.png" width="20px" height="20px" style="align-self:flex-end;"/>-->
 				</div>
 			</div>
 		</div>
 		</a>
+		-->
+		<!--
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3la6pqogfgg2d" class="plainlink">
 		<div class="cardpost">
 			<div class="cardbgtop"></div>
@@ -167,14 +553,12 @@
 				<div class="newsbottom"> 
 					<div class="newstime">2024/11/05</div>
 					<div style="flex-grow:1;"></div>
-					<!--<div class="newstime">블루스카이에서 보기</div>-->
 					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
-					<!--<img src="siteicons/favicon_bsky.png" width="20px" height="20px" style="align-self:flex-end;"/>-->
 				</div>
 			</div>
 		</div>
 		</a>
-		<!--
+		
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3l7x3wqcqu422" class="plainlink">
 		<div class="cardpost">
 			<div class="cardbgtop"></div>
