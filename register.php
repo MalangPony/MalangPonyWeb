@@ -3,7 +3,18 @@
 	$pagename="register";
 ?>
 <?php include 'header.php'; ?>
+
+	<p class="introtext">
+		<span class="nobreak">사전등록이 마감되었습니다.</span><br>
+	</p>
+	<p class="introtext" style="font-size:1.0em;">
+		<span class="nobreak">행사장 수용량 한계로</span>
+		<span class="nobreak">현장 등록은 받지 않습니다.</span><br>
+		<span class="nobreak">사전등록을 못하신 분들은</span>
+		<span class="nobreak">다음 행사를 기대해 주세요!</span>
+	</p>
 	
+	<!--
 	<p class="introtext">
 		<span class="nobreak">아래 버튼을 클릭하여</span>
 		<span class="nobreak">사전등록 신청을 하실 수 있습니다.</span>
@@ -31,5 +42,6 @@
 
 
 	</script>
+	-->
 	
 <?php include 'footer.php'; ?>

@@ -59,7 +59,7 @@ body{height:100%;}
 			</div>
 		</a>-->
 		<a href="/register.php">
-			<div class="linkbar_btn linkbar_yellow <?php if ($pagename=='register') echo 'linkbar_selected'; ?>">
+			<div class="linkbar_btn linkbar_inactive <?php if ($pagename=='register') echo 'linkbar_selected'; ?>">
 			사전등록
 			</div>
 		</a>
