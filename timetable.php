@@ -19,6 +19,7 @@
 		</tr>
 		-->
 		<tr >
+			<td class="" rowspan="15"></td>
 			<td class="tt_time" rowspan="2" style="height:0;">10:00</td>
 			<td class=""></td>
 			<td class="tt_expl"></td>
@@ -122,7 +123,15 @@
 		<tr >
 			<td class="tt_time" rowspan="2">13:30</td>
 		</tr>
-		<tr></tr>
+		<tr>
+			<td class="tt_block_vert tt_block_flawless" rowspan="14">
+				<div class="tt_block_vert_inner">
+						<div class="tt_trange" style="margin-left: 0.2em;">13:30 - 17:00</div>
+						<div style="height:16px;"></div>
+						<div class="tt_actname" style="margin-left: 0.2em;">공식 굿즈 판매</div>
+				</div>
+			</td>
+		</tr>
 		<tr >
 			<td class="tt_time" rowspan="2">14:00</td>
 		</tr>
@@ -189,6 +198,8 @@
 			<td class="tt_time" rowspan="2">17:00</td>
 		</tr>
 		<tr >
+			<td rowspan="2">
+			</td>
 			<td class="tt_block tt_block_sp" rowspan="2">
 				<div class="tt_trange">17:00 - 17:30</div>
 				<div class="tt_actname">

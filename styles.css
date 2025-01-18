@@ -469,6 +469,25 @@ a.snsbtn{
 	border-radius:4px;
 	padding: 4px 16px;
 }
+
+.tt_block_vert{
+	border-radius:4px;
+	padding: 16px 4px;
+	text-align: center; 
+    vertical-align: middle;
+}
+.tt_block_vert_inner{
+	writing-mode: vertical-rl; 
+	text-orientation: sideways; 
+	margin: auto;
+	width: 40px; 
+	display: flex; 
+	justify-content: center; 
+	align-items:center; 
+	flex-direction:row; 
+	transform: rotate(180deg);
+}
+
 .tt_time{
 	font-size:0.7em;
 }
@@ -501,6 +520,7 @@ a.snsbtn{
 .tt_block_sp{ background-color:#96CE7D; }
 .tt_block_ss{ background-color:#FFCA54; }
 .tt_block_sg{ background-color:#F2C7F8; }
+.tt_block_flawless{ background-color:#C1C7F4; }
 .tt_expl{
 	height:100%; /* idk why but this is needed for child divs to fill this cell*/
 	font-size:1.0em;
@@ -736,9 +756,7 @@ a.link_with_icon{
 	.linkbar_btn{
 		font-size:1.1em;
 	}
-	.tt_expl{
-		width:240px;
-	}
+	
 	/* For use with .flexrow - pivots at 680px*/
 	.mobile-pivot-early{
 		flex-direction:column;
@@ -765,6 +783,10 @@ a.link_with_icon{
 		flex-direction:column;
 		justify-content:flex-start;
 		align-items:flex-start;
+	}
+	
+	.tt_block{
+		font-size:0.9em;
 	}
 }
 
@@ -797,6 +819,9 @@ a.link_with_icon{
 	.linkbar{
 		height:44px;
 	}
+	.tt_expl{
+		width:220px;
+	}
 }
 @media (width>=360px) and (width<480px) {
 	body{
@@ -812,6 +837,13 @@ a.link_with_icon{
 	.linkbar{
 		height:36px;
 	}
+	.tt_block_vert_inner{
+		width:32px;
+	}
+	.tt_expl{
+		width:200px;
+		font-size:0.9em;
+	}
 }
 @media (width<360px) {
 	body{
@@ -826,5 +858,12 @@ a.link_with_icon{
 	}
 	.linkbar{
 		height:36px;
+	}
+	.tt_block_vert_inner{
+		width:24px;
+	}
+	.tt_expl{
+		width:180px;
+		font-size:0.85em;
 	}
 }
