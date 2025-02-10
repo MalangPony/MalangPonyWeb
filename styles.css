@@ -488,6 +488,12 @@ a.snsbtn{
 	transform: rotate(180deg);
 }
 
+/* I hate safari */
+.tt_block_vert_inner div{
+	writing-mode: vertical-lr !important; 
+	text-orientation: sideways !important;
+}
+
 .tt_time{
 	font-size:0.7em;
 }

@@ -9,7 +9,15 @@
 		<span class="nobreak">변경될 수 있습니다.</span>
 	</p>
 	
-	
+	<?php
+	$u_agent = $_SERVER['HTTP_USER_AGENT']; 
+	$is_safari=false;
+	if (preg_match('/Chrome/i',$u_agent)) {
+		// Chrome includes Safari in its useragent
+	}elseif(preg_match('/Safari/i',$u_agent)) {
+		$is_safari=true;
+	}
+	?>
 	<table class="timetable" style="margin-top:-20px;margin-bottom:-20px;height:0;">
 		<!-- kinda self evident
 		<tr>
@@ -19,7 +27,9 @@
 		</tr>
 		-->
 		<tr >
+			<?php if (!$is_safari): ?>
 			<td class="" rowspan="15"></td>
+			<?php endif; ?>
 			<td class="tt_time" rowspan="2" style="height:0;">10:00</td>
 			<td class=""></td>
 			<td class="tt_expl"></td>
@@ -124,6 +134,7 @@
 			<td class="tt_time" rowspan="2">13:30</td>
 		</tr>
 		<tr>
+			<?php if (!$is_safari): ?>
 			<td class="tt_block_vert tt_block_flawless" rowspan="14">
 				<div class="tt_block_vert_inner">
 						<div class="tt_trange" style="margin-left: 0.2em;">13:30 - 17:00</div>
@@ -131,6 +142,7 @@
 						<div class="tt_actname" style="margin-left: 0.2em;">공식 굿즈 판매</div>
 				</div>
 			</td>
+			<?php endif; ?>
 		</tr>
 		<tr >
 			<td class="tt_time" rowspan="2">14:00</td>
@@ -198,8 +210,9 @@
 			<td class="tt_time" rowspan="2">17:00</td>
 		</tr>
 		<tr >
-			<td rowspan="2">
-			</td>
+			<?php if (!$is_safari): ?>
+			<td rowspan="2"></td>
+			<?php endif; ?>
 			<td class="tt_block tt_block_sp" rowspan="2">
 				<div class="tt_trange">17:00 - 17:30</div>
 				<div class="tt_actname">
@@ -225,11 +238,21 @@
 		<tr></tr>
 	</table>
 	
+	<?php if ($is_safari): ?>
+    <div class="normaltext" style="font-size:0.9em; margin-top:-8px;">
+        <p class="reverse-indent-2em">
+        <span class="nobreak">공식 굿즈 판매:</span>
+        <span class="nobreak">13:30 - 17:00</span>
+        </p>
+    </div>
+    <?php endif;?>
+    
 	<div class="normaltext" style="font-size:0.8em; margin-top:-8px;">
         <p class="reverse-indent-2em">
         <span class="nobreak">* TSSSF = </span>
         <span class="nobreak"><em>Twilight Sparkle's Secret Shipfic Folder</em></span>
         </p>
     </div>
+    
 	
 <?php include 'footer.php'; ?>
