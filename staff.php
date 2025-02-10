@@ -177,12 +177,27 @@
 	</div>
 	-->
 	<table class="spthank_table">
+		
+		
+		
 		<tr>
-			<td class="spthank_desc" rowspan="2">행사 자문</td>
-			<td class="spthank_name">22%</td>
+			<td class="spthank_desc" rowspan="2">촬영</td>
+			<td class="spthank_name">그니</td>
 		</tr>
 		<tr>
-			<td class="spthank_name">그니</td>
+			<td class="spthank_name">루리</td>
+		</tr>
+		
+		<tr><td columnspan="2" class="spthank_spacer"></td></tr>
+		<tr>
+			<td class="spthank_desc">도우미</td>
+			<td class="spthank_name">암바</td>
+		</tr>
+		
+		<tr><td columnspan="2" class="spthank_spacer"></td></tr>
+		<tr>
+			<td class="spthank_desc" rowspan="1">행사 자문</td>
+			<td class="spthank_name">22%</td>
 		</tr>
 		
 		<tr><td columnspan="2" class="spthank_spacer"></td></tr>
@@ -206,7 +221,12 @@
 			<td class="spthank_name">Libby</td>
 		</tr>
 		
-		
+		<tr><td columnspan="2" class="spthank_spacer"></td></tr>
+		<tr>
+			<td class="spthank_desc">테마곡</td>
+			<td class="spthank_name">Mantlegen</td>
+			
+		</tr>
 		
 		<tr><td columnspan="2" class="spthank_spacer"></td></tr>
 		<tr>
