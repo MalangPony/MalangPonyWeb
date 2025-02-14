@@ -133,6 +133,70 @@
 		</div>
 		</a>
 		-->
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lhxu76nlmc2g" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreicsxjaapdnygxm2qhz5kaixxozypdqrtlmpdjtcpgxcnkvrnvzyzy_SJ.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreicsxjaapdnygxm2qhz5kaixxozypdqrtlmpdjtcpgxcnkvrnvzyzy_SJ.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				이번 주말, 말랑포니 행사장으로 오시는 길을 안내드립니다.<br>
+				서울 5, 7호선 군자역 4번 출구에서 도보로 약 5분 정도 소요되니 참고해주세요!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2025/02/12</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lhnhdg5ync23" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreihpgubblhyz6hs5qtgfbqf7dwa2zulztuhwbq7ttbm6dmpqtrz5gq_RJ.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreihpgubblhyz6hs5qtgfbqf7dwa2zulztuhwbq7ttbm6dmpqtrz5gq_RJ.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				드디어 행사가 일주일 앞으로 다가왔습니다!<br>
+				2월 15일 말랑포니에서 만나요!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2025/02/08</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lgk62oqhzk2g" class="plainlink">
+		<div class="cardpost">
+			<div class="cardbgtop"></div>
+			<div class="cardbg" style="background-image:url(postimg/bafkreigrfiirtatuistkomdtzmwpu4x4fb6njxh2thbrbnku2so2r4vwou_RJ.jpg);"></div>
+			<div class="cardpic">
+				<img src="postimg/bafkreigrfiirtatuistkomdtzmwpu4x4fb6njxh2thbrbnku2so2r4vwou_RJ.jpg"/>
+			</div>
+			<div class="cardbody">
+				<div class="newstext">
+				말랑포니 공식 굿즈를 공개합니다.<br>
+				행사 당일 13:30부터 등록 데스크에서 한정 판매합니다!
+				</div>
+				<div style="flex-grow:1;"></div>
+				<div class="newsbottom"> 
+					<div class="newstime">2025/01/25</div>
+					<div style="flex-grow:1;"></div>
+					<img src="sprites/open_in_new_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_FILLDP.png" width="20px" height="20px" style="align-self:flex-end;"/>
+				</div>
+			</div>
+		</div>
+		</a>
+		<!--
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lfu4oyjcuk2l" class="plainlink">
 		<div class="cardpost">
 			<div class="cardbgtop"></div>
@@ -154,6 +218,8 @@
 			</div>
 		</div>
 		</a>
+		-->
+		<!--
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lfjhjjujzs2v" class="plainlink">
 		<div class="cardpost">
 			<div class="cardbgtop"></div>
@@ -175,6 +241,8 @@
 			</div>
 		</div>
 		</a>
+		-->
+		<!--
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lfgzqfs6fk27" class="plainlink">
 		<div class="cardpost">
 			<div class="cardbgtop"></div>
@@ -196,6 +264,7 @@
 			</div>
 		</div>
 		</a>
+		-->
 		<!--
 		<a href="https://bsky.app/profile/malangpony.bsky.social/post/3lf7tr3b2fk2z" class="plainlink">
 		<div class="cardpost">
