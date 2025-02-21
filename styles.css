@@ -205,6 +205,16 @@ a.snsbtn{
 	color:#4285f4;
 }
 
+.malang{
+	border-color: #5f4385;
+	background-color: #5f4385;
+	color:#FFF;
+}
+.malang:hover{
+	background-color: #FFF;
+	color:#5f4385;
+}
+
 .linkbar{
 	width:100%;
 	display:flex;

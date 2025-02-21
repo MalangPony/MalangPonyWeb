@@ -3,23 +3,53 @@
 	$pagename="index";
 	//$display_sns_float=true;
 ?>
-<?php include 'header.php'; ?>
-	
-	
-	
-	
-	<style>
-	/* sorry */
-	@media (width<330px) {#hack_nl{display:inline;}}
-	@media (width>=330px) {#hack_nl{display:none;}}
-	</style>
+<?php //We skip the header include. ?>
+<!DOCTYPE html>
+<!--
+Website code by SheepPony
+Sorry for the spaghetti.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>
+말랑포니!<?php if ($pagename_kor!='') echo " - {$pagename_kor}"; ?>
+</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<?php if ($pagename=="index"): ?>
+	<meta property="og:title" content="말랑포니!" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://malangpony.com" />
+	<meta property="og:image" content="http://malangpony.com/images/MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" />
+	<meta property="og:description" content="한국의 마이리틀포니 행사, 말랑포니입니다!" />
+<?php endif; ?>
+<!--<meta name="viewport" content="width=480" />-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+<link href="/styles.css" rel="stylesheet" />
+<?php if ($vertical_fit): ?>
+<style>
+html{height:100%;}
+body{height:100%;}
+#content{height:100%;}
+</style>
+<?php endif; ?>
+</head>
+<body>
+<div id="content">
+	<div style="height:10px;"></div>
+	<?php if (!($skip_header===true)): ?>
+	<a href="/"><img src="/images/MPN_Twtr_Header_var1_VECTORIZE_rev6_SS-NoBGCrop_72.png" id="headerimage" width="600px" height="212px"></a>
+	<?php endif; ?>
+
 	<p class="introtext">
-		<span class="nobreak">한국의 마이리틀포니 팬 교류회, </span>
-		<span class="nobreak">2025년 2월 15일 <br id="hack_nl">
-		서울에서 만나요!</span><br>
-		<span class="nobreak">포니를 사랑하는 </span>
-		<span class="nobreak">모든 분들을 환영합니다!</span>
+		<span class="nobreak">여러분들의 많은 참여 덕분에</span>
+		<span class="nobreak">말랑포니가 성공적으로 끝났습니다.</span>
+		<span class="nobreak">다음 행사에서 만나요!</span>
 	</p>
+	
 	
 	<div class="flexrow mobile-pivot-late">
 		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_larg twitter">
@@ -30,56 +60,11 @@
 		</a>
 	</div>
 	
-	<div class="image-with-text">
-		<a href="images/Poster_Extension_rev6_NoQR-Crop.png">
-			<img src="images/Poster_Extension_rev6_NoQR-Crop_ResizeW1000px-JPG85.jpg" style="width:100%; max-width:540px;filter:drop-shadow(3px 3px 5px #00000080);"/>
-		</a>
-		<div class="imgdesc">
-			포스터 제작 : 
-			<a class="actual_link link_with_icon" href="https://x.com/Libbly_Libby">
-				Libby
-				<img src="siteicons/favicon_x.png" 
-					class="imgdesc_snsicon"
-					width="24px" height="24px">
-			</a>
-		</div>
-	</div>
-	
-	<p class="introtext">
-	<span class="nobreak">행사까지... </span>
-	<span class="nobreak"><span id="countdown" class="monotext-bold">???</span></span></p>
-	<script>
-		function update(){
-			//let eventTime=new Date("2025-02-15T00:00:00+09:00");
-			let eventTime=new Date("2025-02-15T11:00:00+09:00");
-			let nowTime=new Date();
-			let timeDelta = eventTime.getTime() - nowTime.getTime();
-			if (timeDelta<0) timeDelta=0;
-			
-			
-			let seconds=Math.round(timeDelta/1000);
-			let minutes = Math.floor(seconds/60);
-			seconds = seconds%60;
-			let hours = Math.floor(minutes/60);
-			minutes = minutes%60;
-			let days = Math.floor(hours/24);
-			hours = hours%24;
-			
-			days=""+days;
-			hours=""+hours;
-			while (hours.length<2) hours="0"+hours;
-			minutes=""+minutes;
-			while (minutes.length<2) minutes="0"+minutes;
-			seconds=""+seconds;
-			while (seconds.length<2) seconds="0"+seconds;
-			
-			let s="D-"+days+", "+hours+":"+minutes+":"+seconds;
-			document.getElementById("countdown").innerHTML = s;
+	<a href="https://2025.malangpony.com" class="snsbtn snsbtn_larg malang">
+		<img src="sprites/hanmari_CM_rev1_100px.png"/>
+		1회 말랑포니 웹사이트
+	</a>
 
-		}
-		update();
-		setInterval(update,1000);
-	</script>
-
-	
-<?php include 'footer.php'; ?>
+<?php //We skip the footer include. ?>
+</body>
+</html>
