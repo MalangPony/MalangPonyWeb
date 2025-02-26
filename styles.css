@@ -692,7 +692,7 @@ a.link_with_icon{
 .fanart_gallery{
 	display:flex;
 	flex-direction:row;
-	justify-content:space-evenly;
+	justify-content:center;
 	width: 100%;;
 	flex-wrap: wrap;
 	
@@ -708,11 +708,11 @@ a.link_with_icon{
 	gap:8px;
 }
 .fanart_thumb{
-	max-width:300px;
-	max-height:200px;
+	max-width:max(300px,calc(20vw - 24px));
+	
 	object-fit: contain;
 	filter:drop-shadow(2px 2px 5px #00000080);
-}
+}/* max-height:200px; */
 
 /*
 .spthanks{
@@ -803,6 +803,10 @@ a.link_with_icon{
 	.tt_block{
 		font-size:0.9em;
 	}
+	
+	.fanart_thumb{
+		max-width:90vw;
+	}
 }
 
 /* Ridiculously Small Mobiles */
@@ -813,9 +817,7 @@ a.link_with_icon{
 	.staffname{
 		font-size:1.3em;
 	}
-	.fanart_thumb{
-		max-width:85vw;
-	}
+	
 }
 
 /* Mobile ladder */
