@@ -1,6 +1,9 @@
 <?php
 	$pagename_kor="마스코트";
 	$pagename="oc";
+	$vertical_fit=false;
+	$skip_header=false;
+	$display_sns_float=false;
 ?>
 <?php include 'header.php'; ?>
 	

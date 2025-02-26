@@ -1,7 +1,9 @@
 <?php
 	$pagename_kor="";
 	$pagename="index";
-	//$display_sns_float=true;
+	$vertical_fit=false;
+	$skip_header=false;
+	$display_sns_float=false;
 ?>
 <?php include 'header.php'; ?>
 	

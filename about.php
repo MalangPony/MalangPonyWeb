@@ -1,6 +1,9 @@
 <?php
 	$pagename_kor="소개";
 	$pagename="about";
+	$vertical_fit=false;
+	$skip_header=false;
+	$display_sns_float=false;
 ?>
 <?php include 'header.php'; ?>
 	<p class="introtext">

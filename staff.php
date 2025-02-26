@@ -1,6 +1,9 @@
 <?php
 	$pagename_kor="크레딧";
 	$pagename="staff";
+	$vertical_fit=false;
+	$skip_header=false;
+	$display_sns_float=false;
 ?>
 <?php include 'header.php'; ?>
 	

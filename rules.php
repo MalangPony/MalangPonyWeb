@@ -3,6 +3,7 @@
 	$pagename="rules";
 	$skip_header=true;
 	$vertical_fit=true;
+	$display_sns_float=false;
 ?>
 <?php include 'header.php'; ?>
 
