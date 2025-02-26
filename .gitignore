@@ -1,0 +1,7 @@
+# Image Sources
+/bgimg_orig
+/fanarts_orig
+
+# Custom helper scripts with personal data
+/mount.sh
+/push.sh
