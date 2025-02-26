@@ -3,46 +3,8 @@
 	$pagename="index";
 	//$display_sns_float=true;
 ?>
-<?php //We skip the header include. ?>
-<!DOCTYPE html>
-<!--
-Website code by SheepPony
-Sorry for the spaghetti.
--->
-<html>
-<head>
-<meta charset="UTF-8">
-<title>
-말랑포니!<?php if ($pagename_kor!='') echo " - {$pagename_kor}"; ?>
-</title>
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<?php if ($pagename=="index"): ?>
-	<meta property="og:title" content="말랑포니!" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://malangpony.com" />
-	<meta property="og:image" content="http://malangpony.com/images/MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" />
-	<meta property="og:description" content="한국의 마이리틀포니 행사, 말랑포니입니다!" />
-<?php endif; ?>
-<!--<meta name="viewport" content="width=480" />-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
-<link href="/styles.css" rel="stylesheet" />
-<?php if ($vertical_fit): ?>
-<style>
-html{height:100%;}
-body{height:100%;}
-#content{height:100%;}
-</style>
-<?php endif; ?>
-</head>
-<body>
-<div id="content">
-	<div style="height:10px;"></div>
-	<?php if (!($skip_header===true)): ?>
-	<a href="/"><img src="/images/MPN_Twtr_Header_var1_VECTORIZE_rev6_SS-NoBGCrop_72.png" id="headerimage" width="600px" height="212px"></a>
-	<?php endif; ?>
+<?php include 'header.php'; ?>
+
 
 	<p class="introtext">
 		<span class="nobreak">여러분들의 많은 참여 덕분에</span>
@@ -50,6 +12,17 @@ body{height:100%;}
 		<span class="nobreak">다음 행사에서 만나요!</span>
 	</p>
 	
+	<iframe width="560" height="315" style="max-width:88vw;max-height:49.5vw;" src="https://www.youtube.com/embed/dwCADV2gQjk?si=exfXezg3K7_ttWlJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	
+	<a href="gallery.php" class="snsbtn snsbtn_larg malang">
+		<img src="sprites/photo_camera_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"/>
+		1회 말랑포니 사진 갤러리
+	</a>
+	
+	<a href="https://2025.malangpony.com" class="snsbtn snsbtn_larg malang">
+		<img src="sprites/hanmari_CM_rev1_100px.png"/>
+		1회 말랑포니 웹사이트
+	</a>
 	
 	<div class="flexrow mobile-pivot-late">
 		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_larg twitter">
@@ -60,11 +33,8 @@ body{height:100%;}
 		</a>
 	</div>
 	
-	<a href="https://2025.malangpony.com" class="snsbtn snsbtn_larg malang">
-		<img src="sprites/hanmari_CM_rev1_100px.png"/>
-		1회 말랑포니 웹사이트
-	</a>
+	
+	
+	
 
-<?php //We skip the footer include. ?>
-</body>
-</html>
+<?php include 'footer.php'; ?>
