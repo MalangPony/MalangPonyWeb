@@ -5,7 +5,7 @@ import subprocess
 import sys
 
 only_generate_php = "--skip" in sys.argv
-mzoom=False
+
 
 DIR_ORIG="gallery_orig"
 DIR_DEST="gallery_thumb"
@@ -31,18 +31,11 @@ for filename in images:
 		print(">"+" ".join(args))
 		subprocess.run(args,check=True)
 	
-	if mzoom:
-		php_content+='<div class="fanart_container">\n'
-		php_content+=F'<img class="fanart_thumb" src="{fp_dest}" data-zoom-src="{fp_orig}">\n'
-		php_content+='</div>\n'
-		php_content+='\n'
-	else:
-		php_content+='<div class="fanart_container">\n'
-		php_content+=F'<a href="{fp_orig}">\n'
-		php_content+=F'<img class="fanart_thumb" src="{fp_dest}">\n'
-		php_content+='</a>\n'
-		php_content+='</div>\n'
-		php_content+='\n'
+
+	php_content+='<div class="fanart_container">\n'
+	php_content+=F'<img class="fanart_thumb" src="{fp_dest}" fsrc="{fp_orig}">\n'
+	php_content+='</div>\n'
+	php_content+='\n'
 
 with open(PHP_FILE,"w",encoding="utf-8") as f:
 	f.write(php_content)

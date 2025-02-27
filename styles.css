@@ -714,6 +714,24 @@ a.link_with_icon{
 	filter:drop-shadow(2px 2px 5px #00000080);
 }/* max-height:200px; */
 
+.pulsating{
+	animation-duration: 0.3s;
+	animation-direction: alternate;
+	animation-delay: 0s;
+	animation-play-state: running;
+	animation-iteration-count: infinite;
+	animation-name:pulsateanim;
+}
+@keyframes pulsateanim {
+  from {
+    /* pushes the sun down past the viewport */
+    opacity: 1.0;
+  }
+  to {
+    /* returns the sun to its default position */
+    opacity: 0.5;
+  }
+}
 /*
 .spthanks{
 	display:flex;
