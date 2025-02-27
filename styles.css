@@ -720,6 +720,7 @@ a.link_with_icon{
 	animation-delay: 0s;
 	animation-play-state: running;
 	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 	animation-name:pulsateanim;
 }
 @keyframes pulsateanim {
@@ -732,6 +733,23 @@ a.link_with_icon{
     opacity: 0.5;
   }
 }
+
+.loading-spinner{
+	animation-duration: 1.0s;
+	animation-direction: normal;
+	animation-delay: 0s;
+	animation-play-state: running;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-name:fullrotation;
+	width:32px;
+	height:32px;
+}
+@keyframes fullrotation {
+	from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
 /*
 .spthanks{
 	display:flex;

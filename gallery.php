@@ -7,16 +7,23 @@
 	
 	<!-- List loading display, click-through -->
 	<div id="list-loading-display" style="display:flex;position:fixed;top:0;bottom:0;left:0;right:0;justify-content:center;align-items:center;z-index:50;pointer-events:none;">
-		<div style="padding:24px;background-color:#00000080;color:#FFFFFF;">
-		<span class="pulsating">이미지 목록 로딩중...</span></div>
+		<div style="padding:24px;background-color:#00000080;color:#FFFFFF;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:16px;">
+			<img class="loading-spinner" src="sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />
+			<div class="pulsating">이미지 목록 로딩중...</div>
+			<img class="loading-spinner" src="sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />
+		</div>
+		
 	</div>
 
 	
 	<div id="image-overlay-container" style="display:flex;justify-content:center;align-items:center;position:fixed;top:0;bottom:0;left:0;right:0;transition-property: opacity;transition-duration: 0.5s;opacity:0.0;z-index:100;background-color:rgba(0,0,0,0.5);">
 		<!-- Image loading display, click-through -->
-		<div style="display:flex;position:absolute;top:0;bottom:0;left:0;right:0;justify-content:center;align-items:center;z-index:120;pointer-events:none;">
-			<div id="image-overlay-loading" style="padding:24px;background-color:#00000080;color:#FFFFFF;">
-			<span class="pulsating">이미지 로딩중...</span></div>
+		<div id="image-overlay-loading" style="display:flex;position:absolute;top:0;bottom:0;left:0;right:0;justify-content:center;align-items:center;z-index:120;pointer-events:none;">
+			<div style="padding:24px;background-color:#00000080;color:#FFFFFF;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:16px;">
+				<img class="loading-spinner" src="sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />
+				<div class="pulsating">이미지 로딩중...</div>
+				<img class="loading-spinner" src="sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />
+			</div>
 		</div>
 		<!-- Actual image display -->
 		<div style="display:flex;justify-content:center;align-items:center;position:absolute;top:8px;bottom:8px;left:8px;right:8px;">
