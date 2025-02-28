@@ -33,7 +33,9 @@ for filename in images:
 	
 
 	php_content+='<div class="fanart_container">\n'
+	php_content+=F'<a href="{fp_orig}">\n'
 	php_content+=F'<img class="fanart_thumb" src="{fp_dest}" fsrc="{fp_orig}">\n'
+	php_content+=F'</a>\n'
 	php_content+='</div>\n'
 	php_content+='\n'
 

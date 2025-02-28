@@ -6,7 +6,7 @@
 <?php include '../header.php'; ?>
 	
 	<!-- List loading display, click-through -->
-	<div id="list-loading-display" style="display:flex;position:fixed;top:0;bottom:0;left:0;right:0;justify-content:center;align-items:center;z-index:50;pointer-events:none;">
+	<div id="list-loading-display" style="display:flex;position:fixed;top:0;bottom:0;left:0;right:0;justify-content:center;align-items:center;z-index:50;pointer-events:none;display:none;">
 		<div style="padding:24px;background-color:#00000080;color:#FFFFFF;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:16px;">
 			<!--<img class="loading-spinner" src="/sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />-->
 			<div class="pulsating">이미지 목록 로딩중...</div>
@@ -16,7 +16,7 @@
 	</div>
 
 	
-	<div id="image-overlay-container" style="display:flex;justify-content:center;align-items:center;position:fixed;top:0;bottom:0;left:0;right:0;transition-property: opacity;transition-duration: 0.5s;opacity:0.0;z-index:100;background-color:rgba(0,0,0,0.5);">
+	<div id="image-overlay-container" style="justify-content:center;align-items:center;position:fixed;top:0;bottom:0;left:0;right:0;transition-property: opacity;transition-duration: 0.5s;opacity:0.0;z-index:100;background-color:rgba(0,0,0,0.5);display:none;">
 		<!-- Image loading display, click-through -->
 		<div id="image-overlay-loading" style="display:flex;position:absolute;top:0;bottom:0;left:0;right:0;justify-content:center;align-items:center;z-index:120;pointer-events:none;">
 			<div style="padding:24px;background-color:#00000080;color:#FFFFFF;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:16px;">
@@ -74,6 +74,11 @@
 		let ioi=document.getElementById("image-overlay-image");
 		let iol=document.getElementById("image-overlay-loading");
 		
+		// Default is None so users without js can still click through
+		ioc.style.display="flex";
+		ioc.style.pointerEvents="none";
+		
+		// preprocess all images
 		document.querySelectorAll(".fanart_container").forEach((n) => {
 			n.addEventListener("click",function(e){
 				ioi.src="";
@@ -92,6 +97,9 @@
 				}
 			});
 			n.style.cursor="pointer";
+			// Disable the link, which is a fallback for js-less users
+			n.querySelector("a").href="javascript:void(0)";
+			
 		});
 		ioc.addEventListener(
 			"click",function(e){
@@ -99,7 +107,7 @@
 				ioc.style.pointerEvents="none";
 				scrollEnabled=true;
 		});
-		ioc.style.pointerEvents="none";
+		
 		
 		function imgLoaded(e){
 			iol.style.display="none";
