@@ -3,14 +3,14 @@
 	$pagename="gallery";
 	$wide_content=true;
 ?>
-<?php include 'header.php'; ?>
+<?php include '../header.php'; ?>
 	
 	<!-- List loading display, click-through -->
 	<div id="list-loading-display" style="display:flex;position:fixed;top:0;bottom:0;left:0;right:0;justify-content:center;align-items:center;z-index:50;pointer-events:none;">
 		<div style="padding:24px;background-color:#00000080;color:#FFFFFF;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:16px;">
-			<img class="loading-spinner" src="sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />
+			<!--<img class="loading-spinner" src="/sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />-->
 			<div class="pulsating">이미지 목록 로딩중...</div>
-			<img class="loading-spinner" src="sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />
+			<!--<img class="loading-spinner" src="/sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />-->
 		</div>
 		
 	</div>
@@ -20,9 +20,9 @@
 		<!-- Image loading display, click-through -->
 		<div id="image-overlay-loading" style="display:flex;position:absolute;top:0;bottom:0;left:0;right:0;justify-content:center;align-items:center;z-index:120;pointer-events:none;">
 			<div style="padding:24px;background-color:#00000080;color:#FFFFFF;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:16px;">
-				<img class="loading-spinner" src="sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />
+				<!--<img class="loading-spinner" src="/sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />-->
 				<div class="pulsating">이미지 로딩중...</div>
-				<img class="loading-spinner" src="sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />
+				<!--<img class="loading-spinner" src="/sprites/hanmari_CM_rev1_100px.png" fetchpriority="high" />-->
 			</div>
 		</div>
 		<!-- Actual image display -->
@@ -43,7 +43,7 @@
 	</p>
 	
 	<div class="fanart_gallery" style="width:100%; margin-top:-10px;">
-		<?php include 'gallery_inner.php'; ?>
+		<?php include 'gallery_inner_autogen.php'; ?>
 	</div>
 	
 	<div class="normaltext" style="max-width:600px;text-align:center;">
@@ -54,7 +54,7 @@
 		</div>
 		-->
 		<div>문의사항은 아래 이메일로 부탁드립니다.</div>
-		<img src="images/email_addr_nocaption.png" style="width:100%; max-width:200px; margin-left: auto; margin-right: auto;"/>
+		<img src="/images/email_addr_nocaption.png" style="width:100%; max-width:200px; margin-left: auto; margin-right: auto;"/>
 	</div>
 	
 	<!-- Bottom  -->
@@ -121,4 +121,4 @@
 	</script>
 	
 
-<?php include 'footer.php'; ?>
+<?php include '../footer.php'; ?>

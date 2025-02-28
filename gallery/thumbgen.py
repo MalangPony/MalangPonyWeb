@@ -7,9 +7,9 @@ import sys
 only_generate_php = "--skip" in sys.argv
 
 
-DIR_ORIG="gallery_orig"
-DIR_DEST="gallery_thumb"
-PHP_FILE="gallery_inner.php"
+DIR_ORIG="gimg_orig"
+DIR_DEST="gimg_thumb"
+PHP_FILE="gallery_inner_autogen.php"
 
 if not only_generate_php:
 	if os.path.exists(DIR_DEST):

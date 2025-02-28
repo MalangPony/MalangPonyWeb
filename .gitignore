@@ -1,11 +1,11 @@
-# Auto-generated PHP file and thumbnails
-/gallery_inner.php
-/gallery_thumb
+# Gallery images
+/gallery/gallery_inner_autogen.php
+/gallery/gimg_thumb
+/gallery/gimg_orig
 
 # Image Sources
 /bgimg_orig
 /fanarts_orig
-/gallery_orig
 
 # Sensitive server upload scripts
 /mount.sh
