@@ -31,12 +31,6 @@
 		</div>
 	</div>
 	
-	<!--
-	<div class="normaltext">
-		<h2>말랑포니 2025 갤러리</h2>
-		<p style="font-size:0.8em;">우와</p>
-	</div>
-	-->
 	<p class="introtext">
 		<span class="nobreak">1회 말랑포니 행사의</span>
 		<span class="nobreak">공식 사진들입니다.</span><br>
@@ -46,13 +40,9 @@
 		<?php include 'gallery_inner_autogen.php'; ?>
 	</div>
 	
-	<div class="normaltext" style="max-width:600px;text-align:center;">
-		<!--
-		<h2 style="margin-top:0;">문의</h2>
-		<div>
-			<strong>공식 이메일</strong>
-		</div>
-		-->
+	<div class="normaltext" style="max-width:600px;text-align:center;margin-top:-8px;">
+		<div style="">촬영: <strong><a class="actual_link" href="https://x.com/guni1636">그니</a>, <a class="actual_link" href="https://x.com/0blackmir0_">루리</a></strong></div>
+		<div style="height:16px;"></div>
 		<div>문의사항은 아래 이메일로 부탁드립니다.</div>
 		<img src="/images/email_addr_nocaption.png" style="width:100%; max-width:200px; margin-left: auto; margin-right: auto;"/>
 	</div>
