@@ -133,7 +133,10 @@ a.snsbtn{
 	transition-property: background-color, color;
 	transition-duration: 0.5s;
 }
-
+.snsbtn_long{
+	flex-wrap:wrap;
+	justify-content:center;
+}
 .snsbtn_larg {
 	padding-left:12px;
 	padding-right:12px;

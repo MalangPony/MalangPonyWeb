@@ -14,7 +14,7 @@ Sorry for the spaghetti.
 	<meta property="og:title" content="말랑포니!" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://malangpony.com" />
-	<meta property="og:image" content="http://malangpony.com/images/MPN_Twtr_Header_var1_VECTORIZE_rev6_NoBGCrop_72.png" />
+	<meta property="og:image" content="http://malangpony.com/images/MPN_Twtr_Header_var1_VECTORIZE_rev6_SS-NoBGCrop_72_NoBottom.png" />
 	<meta property="og:description" content="한국의 마이리틀포니 행사, 말랑포니입니다!" />
 <?php endif; ?>
 <!--<meta name="viewport" content="width=480" />-->
@@ -40,6 +40,6 @@ body{height:100%;}
 <div id="content">
 	<div style="height:10px;"></div>
 	<?php if (!($skip_header===true)): ?>
-	<a href="/"><img src="/images/MPN_Twtr_Header_var1_VECTORIZE_rev6_SS-NoBGCrop_72.png" id="headerimage" width="600px" height="212px"></a>
+	<a href="/"><img src="/images/MPN_Twtr_Header_var1_VECTORIZE_rev6_SS-NoBGCrop_72_NoBottom.png" id="headerimage" width="600px" height="212px"></a>
 	<?php endif; ?>
 
