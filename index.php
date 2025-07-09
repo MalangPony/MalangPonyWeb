@@ -19,17 +19,17 @@
 		1회 말랑포니 사진 갤러리
 	</a>
 	
-	<a href="https://2025.malangpony.com" class="snsbtn snsbtn_larg malang">
-		<img src="/sprites/hanmari_CM_rev1_100px.png"/>
+	<a href="https://malangpony.com/old/pre25" class="snsbtn snsbtn_larg malang">
+		<img src="<?php echo $webroot;?>/sprites/hanmari_CM_rev1_100px.png"/>
 		1회 말랑포니 웹사이트
 	</a>
 	
 	<div class="flexrow mobile-pivot-late">
 		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_larg twitter">
-			<img src="/siteicons/favicon_x.png"/>공식 트위터(X)
+			<img src="<?php echo $webroot;?>/siteicons/favicon_x.png"/>공식 트위터(X)
 		</a>
 		<a href="https://bsky.app/profile/malangpony.bsky.social" class="snsbtn snsbtn_larg bluesky">
-			<img src="/siteicons/favicon_bsky_white.png"/>공식 블루스카이
+			<img src="<?php echo $webroot;?>/siteicons/favicon_bsky_white.png"/>공식 블루스카이
 		</a>
 	</div>
 	
