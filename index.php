@@ -59,17 +59,10 @@
 		
 		<h2>참가 신청</h2>
 		<p class="paragraph-mini">
-		아래 링크에서 말랑 리틀 포니의 참가 신청을 받고 있습니다.
+		말랑 리틀 포니의 신청은 8월 16일부로 마감되었습니다.
 		</p>
-		
-		<div class="flexrow">
-			<a href="https://witchform.com/payform/?uuid=KTKXDFF4BR" class="snsbtn snsbtn_larg witchform">
-				<img src="<?php echo $webroot;?>/siteicons/WF_CropAlpha.png"/>참가 신청 
-			</a>
-		</div>
-		
 		<p class="paragraph-mini">
-		선착순으로 15명만 모집하니, 서둘러 신청해 주시기 바랍니다.
+		말랑 리틀 포니에 대한 추가 정보는 공식 SNS에 공개될 예정이니 확인 부탁드립니다.
 		</p>
 		
 		<h2> 활동</h2>
