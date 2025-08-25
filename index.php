@@ -6,14 +6,31 @@
 <?php include 'header.php'; ?>
 
 
-	<p class="introtext" style="margin-top:24px;">
+	<p class="introtext" style="margin-top:24px;margin-bottom:24px;">
 		<span style="font-family:NPS;">
-		<span class="nobreak">포니 팬들을 위한</span>
-		<span class="nobreak"><span style="font-size:0.7em;font-weight:normal;">작은</span> 이벤트</span>
+		다음 행사에서 만나요!
 		</span>
 	</p>
 	
-	<div class="flexrow mobile-pivot-early" style="margin-top:16px;margin-bottom: -16px;">
+	
+	<a href="https://malangpony.com/old/post25/gallery" class="snsbtn snsbtn_larg malang_old">
+		<img src="<?php echo $webroot;?>/sprites/photo_camera_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" style="filter:drop-shadow(0 0 2px #5f4385);"/>
+		말랑포니 1회 사진 갤러리
+	</a>
+	
+	<a href="https://youtu.be/ZtCIdW_r-U8" class="snsbtn snsbtn_larg youtube">
+		<img src="<?php echo $webroot;?>/siteicons/YT-Logo.png"/>
+		말랑포니 1회 리캡 영상
+	</a>
+	
+	<a href="gallery" class="snsbtn snsbtn_larg malang">
+		<img src="<?php echo $webroot;?>/sprites/photo_camera_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" style="filter:drop-shadow(0 0 2px #2F4575);"/>
+		말랑리틀포니 사진 갤러리
+	</a>
+	
+	
+	
+	<div class="flexrow mobile-pivot-early" style="">
 		<a href="https://x.com/MalangPony" class="snsbtn snsbtn_larg twitter">
 			<img src="<?php echo $webroot;?>/siteicons/favicon_x.png"/>공식 트위터(X)
 		</a>
@@ -22,66 +39,6 @@
 		</a>
 	</div>
 		
-	<div class="normaltext">
-		
-		
-		<h2>행사 개요</h2>
-		
-		<p class="paragraph-mini">
-			8월 23일 대전에서 15명 규모의 서브 이벤트, <span class="branding-text">말랑 리틀 포니</span>가 열립니다!
-		</p>
-		
-		
-		<p class="paragraph-mini">
-			<span class="branding-text">말랑 리틀 포니</span>는 자유로운 교류시간을 중점으로 준비한 서브 이벤트입니다.
-		</p>
-		
-		<p class="paragraph-mini">
-			정해진 시간표 없이 자유롭게 돌아다니며 하고 싶은 활동을 하고, 서로 소통하며 좋은 추억을 남기고 가셨으면 좋겠습니다.
-		</p>
-		
-		<p class="paragraph-mini">
-			<ul style="list-style-position: inside;">
-				<li>
-				날짜 : 8월 23일 토요일
-				</li>
-				<li>
-				시간 : 오전 11시 ~ 오후 5시
-				</li>
-				<li>
-				장소 : 
-				<a class="actual_link link_with_icon" href="https://naver.me/FMcgYPbG"> <span>에피소드 대전</span>
-				<img src="siteicons/favicon_nmap.png" width="24px" height="24px">
-				</a>
-				</li>
-			</ul>
-		</p>
-		
-		<h2>참가 신청</h2>
-		<p class="paragraph-mini">
-		말랑 리틀 포니의 신청은 8월 16일부로 마감되었습니다.
-		</p>
-		<p class="paragraph-mini">
-		말랑 리틀 포니에 대한 추가 정보는 공식 SNS에 공개될 예정이니 확인 부탁드립니다.
-		</p>
-		
-		<h2> 활동</h2>
-		
-		<p class="paragraph-mini">
-		말랑 리틀 포니에서는 포니 관련 발표회, 그림 테이블, 다양한 포니 테마 보드게임, 그리고 포니 노래를 직접 부를 수 있는 포니 노래방 등 다양한 활동이 준비되어 있습니다.
-		</p>
-		
-		<p class="paragraph-mini">
-		그 외 원하는 활동이 있으시다면 언제든지 스태프에게 말해주세요!
-		</p>
-		
-		<p style="margin-top:32px; font-size:0.8em;">
-		<span>문의 사항은 말랑포니 공식 트위터, 블루스카이, 또는 이메일: </span>
-		<img src="images/email_addr_nocaption_NEW.png" style="height:100%;max-height:1.2em;display:inline-block;position: relative;top: 0.3em;"/> 
-		<span>으로 연락 주시기 바랍니다.</span>
-		</p>
-	
-	</div>
 	
 	
 	<div class="normaltext" style="font-size:0.8em; text-align:center; margin-top:24px;">
@@ -90,6 +47,8 @@
 		<a href="https://malangpony.com/old/pre25" class="actual_link">1회 말랑포니 (행사전)</a>
 		&nbsp;&nbsp;&nbsp;
 		<a href="https://malangpony.com/old/post25" class="actual_link">1회 말랑포니 (행사후)</a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="https://malangpony.com/old/pre25L" class="actual_link">말랑리틀포니 (행사전)</a>
 	</div>
 	
 	<div style="height:8px;"></div>

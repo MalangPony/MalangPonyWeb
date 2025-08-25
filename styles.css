@@ -244,6 +244,16 @@ a.snsbtn{
 	color:#2F4575;
 }
 
+.malang_old{
+	border-color: #5f4385;
+	background-color: #5f4385;
+	color:#FFF;
+}
+.malang_old:hover{
+	background-color: #FFF;
+	color:#5f4385;
+}
+
 .witchform{
 	border-color: #FFDD33;
 	background-color: #FFDD33;
@@ -252,6 +262,16 @@ a.snsbtn{
 .witchform:hover{
 	background-color: #FFF;
 	color:#000;
+}
+
+.youtube{
+	border-color: #212121;
+	background-color: #212121;
+	color:#FFF;
+}
+.youtube:hover{
+	background-color: #FFF;
+	color:#212121;
 }
 
 

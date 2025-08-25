@@ -1,7 +1,9 @@
 # Gallery images
 /gallery/gallery_inner_autogen.php
-/gallery/gimg_thumb
-/gallery/gimg_orig
+/gallery/gimg_thumb/
+/gallery/gimg_orig/
+/gallery/gallery_images_MPN25L_thumb/
+/gallery/gallery_images_MPN25L_orig/
 
 # Image Sources
 /bgimg_orig
