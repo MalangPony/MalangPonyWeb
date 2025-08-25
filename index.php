@@ -87,9 +87,9 @@
 	<div class="normaltext" style="font-size:0.8em; text-align:center; margin-top:24px;">
 		이전 웹사이트:
 		&nbsp;&nbsp;&nbsp;
-		<a href="https://malangpony.com/old/pre25" class="actual_link">1회 말랑포니 (행사전)</a>
+		<a href="<?php echo $webdomain;?>/old/pre25" class="actual_link">1회 말랑포니 (행사전)</a>
 		&nbsp;&nbsp;&nbsp;
-		<a href="https://malangpony.com/old/post25" class="actual_link">1회 말랑포니 (행사후)</a>
+		<a href="<?php echo $webdomain;?>/old/post25" class="actual_link">1회 말랑포니 (행사후)</a>
 	</div>
 	
 	<div style="height:8px;"></div>
