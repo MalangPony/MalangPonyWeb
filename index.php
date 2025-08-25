@@ -15,11 +15,11 @@
 	<iframe width="560" height="315" style="max-width:88vw;max-height:49.5vw;" src="https://www.youtube.com/embed/ZtCIdW_r-U8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	
 	<a href="gallery" class="snsbtn snsbtn_larg malang">
-		<img src="sprites/photo_camera_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" style="filter:drop-shadow(0 0 2px #5f4385);"/>
+		<img src="<?php echo $webroot;?>/sprites/photo_camera_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" style="filter:drop-shadow(0 0 2px #5f4385);"/>
 		1회 말랑포니 사진 갤러리
 	</a>
 	
-	<a href="https://malangpony.com/old/pre25" class="snsbtn snsbtn_larg malang">
+	<a href="<?php echo $webdomain;?>/old/pre25" class="snsbtn snsbtn_larg malang">
 		<img src="<?php echo $webroot;?>/sprites/hanmari_CM_rev1_100px.png"/>
 		1회 말랑포니 웹사이트
 	</a>
