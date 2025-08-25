@@ -41,6 +41,6 @@ body{height:100%;}
 <div id="content">
 	<div style="height:10px;"></div>
 	<?php if (!($skip_header===true)): ?>
-	<a href="/"><img src="<?php echo $webroot;?>/images/MPN_LogoV2_PNG-400dpi-NoBG_RszY500.png" id="headerimage" width="589px" height="240px"></a>
+	<a href="<?php echo $webroot;?>"><img src="<?php echo $webroot;?>/images/MPN_LogoV2_PNG-400dpi-NoBG_RszY500.png" id="headerimage" width="589px" height="240px"></a>
 	<?php endif; ?>
 
