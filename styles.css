@@ -770,7 +770,7 @@ a.link_with_icon{
 }
 .fanart_thumb{
 	max-width:max(300px,calc(20vw - 24px));
-	
+	max-height:max(300px,calc(20vw - 24px));
 	object-fit: contain;
 	filter:drop-shadow(2px 2px 5px #00000080);
 }/* max-height:200px; */
