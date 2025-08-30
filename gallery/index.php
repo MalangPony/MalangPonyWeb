@@ -2,6 +2,7 @@
 	$pagename_kor="갤러리";
 	$pagename="gallery";
 	$wide_content=true;
+	$header_image_override="/images/MPN_LogoV2L_PNG-96dpi-NoBG.png";
 ?>
 <?php include '../header.php'; ?>
 	
@@ -32,7 +33,7 @@
 	</div>
 	
 	<p class="introtext">
-		<span class="nobreak">말랑리틀포니 행사의</span>
+		<span class="nobreak">말랑 리틀 포니 행사의</span>
 		<span class="nobreak">공식 사진들입니다.</span><br>
 	</p>
 	

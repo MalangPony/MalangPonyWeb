@@ -34,7 +34,7 @@
 	<div class="centerhead">말랑 리틀 포니 2025.08.23</div>
 	<a href="gallery" class="snsbtn snsbtn_larg malang">
 		<img src="<?php echo $webroot;?>/sprites/photo_camera_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" style="filter:drop-shadow(0 0 2px #2F4575);"/>
-		말랑리틀포니 사진 갤러리
+		말랑 리틀 포니 사진 갤러리
 	</a>
 	<div class="centerhead">공식 SNS</div>
 	<div class="flexrow mobile-pivot-early" style="">
